@@ -1,0 +1,26 @@
+{
+	"require": {
+		"laravel/framework": "4.0.*",
+		"jasonlewis/basset": "*",
+		"natxet/CssMin": "*",
+		"leafo/lessphp": "*",
+		"anahkiasen/underscore-php" : "dev-master",
+		"meido/str": "*",
+		"meido/form": "*",
+		"meido/html": "*",
+		"anahkiasen/former": "*",
+		"cartalyst/sentry": "2.0.*",
+		"loic-sharma/profiler": "dev-master"
+	},
+	"autoload": {
+		"classmap": [
+			"app/commands",
+			"app/controllers",
+			"app/models",
+			"app/database/migrations",
+			"app/tests/TestCase.php",
+			"app/helpers"
+		]
+	},
+	"minimum-stability": "dev"
+}
