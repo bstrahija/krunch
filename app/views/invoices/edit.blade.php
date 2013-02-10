@@ -5,7 +5,7 @@
 		<h1>Invoice [{{ $invoice->invoice_num }}]</h1>
 		<hr>
 
-		<form action="" method="POST" class="form-horizontal">
+		{{{ Form::open('invoices/' . $invoice->id, 'PUT', array('class' => 'form-horizontal')) }}}
 			<div class="control-group">
 				<label for="title" class="control-label">Title</label>
 				<div class="controls">

@@ -10,7 +10,9 @@
 		"meido/html": "*",
 		"anahkiasen/former": "*",
 		"cartalyst/sentry": "2.0.*",
-		"loic-sharma/profiler": "dev-master"
+		"loic-sharma/profiler": "dev-master",
+		"tcpdf/tcpdf": "*",
+		"dandoescode/datum": "*"
 	},
 	"autoload": {
 		"classmap": [
