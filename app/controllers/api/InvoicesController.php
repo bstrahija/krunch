@@ -1,11 +1,19 @@
-<?php
+<?php namespace Api;
 
-class Api_InvoicesController extends Api_ApiController
+use Client;
+use Invoice;
+
+class InvoicesController extends ApiController
 {
 
 	public function index()
 	{
-		return 'Invoice list';
+		return Invoice::all();
+	}
+
+	public function show($id)
+	{
+		return Invoice::find($id);
 	}
 
 }

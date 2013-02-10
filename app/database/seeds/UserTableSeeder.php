@@ -15,6 +15,9 @@ class UserTableSeeder extends Seeder
 			'email'       => 'boris@creolab.hr',
 			'password'    => '$2y$10$9dKAFTN3/DBC/LLKeXxaV.qh8r7NOiA2FpTnyqV1fm.g7OcY6pV9m', // admin
 			'role'        => 'admin',
+			'first_name'  => 'Boris',
+			'last_name'   => 'Strahija',
+			'company'     => 'Creo',
 			'created_at'  => date('Y-m-d H:i:s'),
 			'updated_at'  => date('Y-m-d H:i:s'),
 		));
@@ -22,6 +25,9 @@ class UserTableSeeder extends Seeder
 			'email'       => 'info@bigdeal.si',
 			'password'    => '$2y$10$9dKAFTN3/DBC/LLKeXxaV.qh8r7NOiA2FpTnyqV1fm.g7OcY6pV9m', // admin
 			'role'        => 'client',
+			'first_name'  => 'Ana',
+			'last_name'   => 'Eterović',
+			'company'     => 'BigDeal',
 			'created_at'  => date('Y-m-d H:i:s'),
 			'updated_at'  => date('Y-m-d H:i:s'),
 		));

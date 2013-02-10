@@ -1,6 +1,6 @@
-<?php
+<?php namespace Api;
 
-class Api_ApiController extends BaseController
+class ApiController extends \BaseController
 {
 
 }

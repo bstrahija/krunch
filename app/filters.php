@@ -38,10 +38,13 @@ Route::filter('auth', function()
 	if (Auth::guest()) return Redirect::route('login');
 });
 
-
-Route::filter('guest', function()
+// Check API key in header
+Route::filter('api_auth', function()
 {
-	if (Auth::check()) return Redirect::to('/');
+	if (Config::get('app.api_key') !== Request::header('api-key'))
+	{
+		return Response::json(array('error' => 'Unauthorized'), 403);
+	}
 });
 
 /*

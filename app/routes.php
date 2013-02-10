@@ -11,13 +11,16 @@
 |
 */
 
+// ! Public route
 Route::get('invoice/{any}', 'PublicController@display');
 
+// ! Auth routes
 Route::controller('auth', 'AuthController');
 Route::get('login',  array('as' => 'login',  'uses' => 'AuthController@getLogin'));
 Route::post('login', 'AuthController@postLogin');
 Route::get('logout', array('as' => 'logout', 'uses' => 'AuthController@getLogout'));
 
+// ! App routes
 Route::group(array('before' => 'auth'), function()
 {
 	Route::get('/', 'DashboardController@index');
@@ -26,3 +29,19 @@ Route::group(array('before' => 'auth'), function()
 	Route::resource('clients',   'ClientsController');
 	Route::resource('users',     'UsersController');
 });
+
+// ! Api routes
+Route::group(array('prefix' => 'api', 'before' => 'api_auth'), function()
+{
+	Route::resource('invoices',  'Api\InvoicesController');
+	Route::resource('clients',   'Api\ClientsController');
+});
+
+if (Request::segment(1) == 'api')
+{
+	// Custom 404 handler
+	\App::error(function(Exception $e, $code) {
+		if ($code == 404) return Response::json(array('error' => '404', 'message' => 'Resource not found ['.$e->getMessage().']'), 404);
+		if ($code == 500) return Response::json(array('error' => '500', 'message' => 'Internal server error ['.$e->getMessage().']'), 500);
+	});
+}

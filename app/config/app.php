@@ -65,7 +65,8 @@ return array(
 	|
 	*/
 
-	'key' => 'YourSecretKey!!!',
+	'key' => 'zu6du3ko0soha8kiza7ghib9hi2la3to',
+	'api_key' => 'xoho9vo8jofu5whi4wert8tart7te6ri',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -175,7 +176,7 @@ return array(
 		'Schema'          => 'Illuminate\Support\Facades\Schema',
 		'Seeder'          => 'Illuminate\Database\Seeder',
 		'Session'         => 'Illuminate\Support\Facades\Session',
-		'URL'             => 'Illuminate\Support\Facades\URL',
+		//'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 
@@ -186,6 +187,7 @@ return array(
 		'HTML'       => 'Meido\HTML\HTMLFacade',
 		'Sentry'     => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
 		'Str'        => 'Meido\Str\StrFacade',
+		'URL'        => 'App\Helpers\URL',
 
 	),
 
