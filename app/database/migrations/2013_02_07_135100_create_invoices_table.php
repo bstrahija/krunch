@@ -19,6 +19,7 @@ class CreateInvoicesTable extends Migration {
 			$t->integer('user_id');
 			$t->integer('client_id');
 			$t->dateTime('sent_at')->nullable()->default(null);
+			$t->dateTime('payed_at')->nullable()->default(null);
 			$t->timestamps();
 		});
 	}

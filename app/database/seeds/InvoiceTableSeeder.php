@@ -30,7 +30,6 @@ class InvoiceTableSeeder extends Seeder
 			'amount'      => '900,00',
 			'user_id'     => 2,
 			'client_id'   => 3,
-			'sent_at'     => date('Y-m-d H:i:s', strtotime('-1 day')),
 			'created_at'  => date('Y-m-d H:i:s', strtotime('-1 day')),
 			'updated_at'  => date('Y-m-d H:i:s', strtotime('-1 day')),
 		));
@@ -41,6 +40,7 @@ class InvoiceTableSeeder extends Seeder
 			'user_id'     => 2,
 			'client_id'   => 3,
 			'sent_at'     => date('Y-m-d H:i:s', strtotime('-2 day')),
+			'payed_at'     => date('Y-m-d H:i:s', strtotime('-2 day')),
 			'created_at'  => date('Y-m-d H:i:s', strtotime('-2 day')),
 			'updated_at'  => date('Y-m-d H:i:s', strtotime('-2 day')),
 		));
@@ -50,7 +50,7 @@ class InvoiceTableSeeder extends Seeder
 			'amount'      => '750,00',
 			'user_id'     => 2,
 			'client_id'   => 4,
-			'sent_at'     => date('Y-m-d H:i:s', strtotime('-3 day')),
+			'payed_at'    => date('Y-m-d H:i:s', strtotime('-3 day')),
 			'created_at'  => date('Y-m-d H:i:s', strtotime('-3 day')),
 			'updated_at'  => date('Y-m-d H:i:s', strtotime('-3 day')),
 		));

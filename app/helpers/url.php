@@ -7,6 +7,16 @@ use Str;
 
 class URL extends \Illuminate\Support\Facades\URL
 {
+	public static function show($resource, $parameters = array(), $secure = null)
+	{
+		if (isset($resource->id))
+		{
+			$resourceName = Pluralizer::plural(strtolower(get_class($resource)));
+
+			return parent::to($resourceName . '/'.$resource->id, $parameters, $secure);
+		}
+	}
+
 	public static function edit($resource, $parameters = array(), $secure = null)
 	{
 		if (isset($resource->id))
