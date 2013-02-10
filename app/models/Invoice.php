@@ -2,6 +2,7 @@
 
 class Invoice extends Eloquent
 {
+	protected $table = 'invoices';
 
 	public function user()
 	{

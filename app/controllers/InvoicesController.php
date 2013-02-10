@@ -6,7 +6,7 @@ class InvoicesController extends BaseController
 	public function index()
 	{
 		return View::make('invoices.index')
-		           ->with('invoices', Invoice::with('client')->paginate(20));
+		           ->with('invoices', Invoice::paginate(20));
 	}
 
 	public function show($id)
@@ -34,13 +34,19 @@ class InvoicesController extends BaseController
 	{
 		$invoice = Invoice::find($id);
 
-		if ($invoice)
+		$validator = Validator::make(
+			Input::all(),
+			array('title' => 'required|min:5')
+		);
+
+		if ($invoice and ! $validator->fails())
 		{
 			$invoice->title = Input::get('title');
 			$invoice->save();
+			return Redirect::to('invoices/' . $id . '/edit')->with('success', true);
 		}
 
-		return Redirect::to('invoices/' . $id . '/edit');
+		return Redirect::to('invoices/' . $id . '/edit')->withInput()->withErrors($validator);
 	}
 
 }

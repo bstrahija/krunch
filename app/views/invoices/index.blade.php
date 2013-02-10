@@ -20,9 +20,9 @@
 					<tr>
 						<td>{{ $invoice->id }}</td>
 						<td><a href="{{ URL::edit($invoice) }}">{{ $invoice->title }}</a></td>
-						<td>{{ $invoice->client->company }}</td>
+						<td>{{ $invoice->client->name }}</td>
 						<td>{{ $invoice->created_at }}</td>
-						<td style="color: #999;">
+						<td style="color: #ddd;">
 							<i class="icon-envelope" title="{{ $invoice->sent_at }}" style="{{ ($invoice->sent_at) ? 'color: #0a0;' : null }}"></i> |
 							<i class="icon-globe" title="{{ $invoice->payed_at }}" style="{{ ($invoice->payed_at) ? 'color: #0a0;' : 'color: #a00;' }}"></i>
 						</td>

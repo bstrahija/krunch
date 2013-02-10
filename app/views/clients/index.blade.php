@@ -8,7 +8,8 @@
 			<thead>
 				<tr>
 					<th>#</th>
-					<th>Company</th>
+					<th>Name</th>
+					<th>Manager</th>
 					<th>Email</th>
 					<th>When</th>
 				</tr>
@@ -17,7 +18,8 @@
 				@foreach ($clients as $client)
 					<tr>
 						<td>{{ $client->id }}</td>
-						<td>{{ $client->company }}</td>
+						<td><a href="{{ URL::edit($client) }}">{{ $client->name }}</a></td>
+						<td>{{ $client->manager }}</td>
 						<td>{{ $client->email }}</td>
 						<td>{{ $client->created_at }}</td>
 					</tr>

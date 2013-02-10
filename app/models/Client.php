@@ -2,7 +2,7 @@
 
 class Client extends Eloquent
 {
-	protected $table = 'users';
+	protected $table = 'clients';
 
 	public function invoices()
 	{

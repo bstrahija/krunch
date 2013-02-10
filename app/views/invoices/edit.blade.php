@@ -5,11 +5,29 @@
 		<h1>Invoice [{{ $invoice->invoice_num }}]</h1>
 		<hr>
 
+		@if (Session::has('success'))
+			<div class="alert alert-success">
+				<button type="button" class="close" data-dismiss="alert">&times;</button>
+				Saved!
+			</div>
+		@endif
+
+		@if ($errors->any())
+			<div class="alert alert-error">
+				<button type="button" class="close" data-dismiss="alert">&times;</button>
+				Error!<br>
+
+				@foreach ($errors->all() as $error)
+					{{{ $error }}}
+				@endforeach
+			</div>
+		@endif
+
 		{{{ Form::open('invoices/' . $invoice->id, 'PUT', array('class' => 'form-horizontal')) }}}
 			<div class="control-group">
 				<label for="title" class="control-label">Title</label>
 				<div class="controls">
-					<input type="text" name="title" id="title" value="{{ $invoice->title }}">
+					<input type="text" name="title" id="title" value="{{ Input::old('title', $invoice->title) }}">
 				</div>
 			</div>
 
@@ -29,7 +47,7 @@
 					<select name="client_id" id="client_id">
 						<option value="">-</option>
 						@foreach ($clients as $client)
-							<option {{ ($client->id == $invoice->client_id) ? 'selected="selected"' : null }} value="{{ $client->id }}">{{ $client->company }}</option>
+							<option {{ ($client->id == $invoice->client_id) ? 'selected="selected"' : null }} value="{{ $client->id }}">{{ $client->name }}</option>
 						@endforeach
 					</select>
 				</div>

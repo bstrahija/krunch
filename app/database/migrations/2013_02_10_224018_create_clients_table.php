@@ -13,7 +13,9 @@ class CreateClientsTable extends Migration {
 	{
 		Schema::create('clients', function($t) {
 			$t->increments('id')->unsigned();
+			$t->integer('user_id');
 			$t->string('name', 250);
+			$t->string('manager', 250);
 			$t->string('email', 250);
 			$t->text('address');
 			$t->string('city');
