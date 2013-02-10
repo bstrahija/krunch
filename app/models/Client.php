@@ -6,11 +6,6 @@ class Client extends Eloquent
 
 	public function invoices()
 	{
-		$this->hasMany('Invoice');
-	}
-
-	public static function all($columns = array())
-	{
-		return parent::where('role', 'client')->get();
+		return $this->hasMany('Invoice');
 	}
 }

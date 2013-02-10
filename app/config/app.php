@@ -117,6 +117,7 @@ return array(
 		'Meido\Form\FormServiceProvider',
 		'Meido\HTML\HTMLServiceProvider',
 		'Meido\Str\StrServiceProvider',
+		'Profiler\ProfilerServiceProvider',
 	),
 
 	/*
@@ -185,6 +186,7 @@ return array(
 		'Fluent'     => 'Illuminate\Support\Fluent',
 		'Form'       => 'Meido\Form\FormFacade',
 		'HTML'       => 'Meido\HTML\HTMLFacade',
+		'Profiler'   => 'Profiler\Facades\Profiler',
 		'Sentry'     => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
 		'Str'        => 'Meido\Str\StrFacade',
 		'URL'        => 'App\Helpers\URL',

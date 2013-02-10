@@ -17,16 +17,21 @@
 				<label for="amount" class="control-label">Amount</label>
 				<div class="controls">
 					<div class="input-append">
-						<input class="span1" id="amount" name="amount" type="text" value="{{ $invoice->amout }}">
+						<input class="span2" id="amount" name="amount" type="text" value="{{ $invoice->amount }}">
 						<span class="add-on">&euro;</span>
 					</div>
 				</div>
 			</div>
 
 			<div class="control-group">
-				<label for="amount" class="control-label">Client</label>
+				<label for="client_id" class="control-label">Client</label>
 				<div class="controls">
-					{{{ Form::select($clients) }}}
+					<select name="client_id" id="client_id">
+						<option value="">-</option>
+						@foreach ($clients as $client)
+							<option {{ ($client->id == $invoice->client_id) ? 'selected="selected"' : null }} value="{{ $client->id }}">{{ $client->company }}</option>
+						@endforeach
+					</select>
 				</div>
 			</div>
 

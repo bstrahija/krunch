@@ -33,8 +33,8 @@ Route::group(array('before' => 'auth'), function()
 // ! Api routes
 Route::group(array('prefix' => 'api', 'before' => 'api_auth'), function()
 {
-	Route::resource('invoices',  'Api\InvoicesController');
-	Route::resource('clients',   'Api\ClientsController');
+	Route::resource('api/invoices',  'Api\InvoicesController');
+	Route::resource('api/clients',   'Api\ClientsController');
 });
 
 if (Request::segment(1) == 'api')

@@ -9,6 +9,7 @@
 				<tr>
 					<th>#</th>
 					<th>Num</th>
+					<th>Client</th>
 					<th>When</th>
 					<th>Actions</th>
 				</tr>
@@ -18,6 +19,7 @@
 					<tr>
 						<td>{{ $invoice->id }}</td>
 						<td>{{ $invoice->title }}</td>
+						<td>{{ $invoice->client->company }}</td>
 						<td>{{ $invoice->created_at }}</td>
 						<td>
 							<a href="{{ URL::edit($invoice) }}" class="btn btn-info btn-small">Edit</a>
@@ -27,5 +29,7 @@
 				@endforeach
 			</tbody>
 		</table>
+
+		{{{ $invoices->links() }}}
 	@endif
 @stop

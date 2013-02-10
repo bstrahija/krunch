@@ -3,9 +3,14 @@
 class Invoice extends Eloquent
 {
 
+	public function user()
+	{
+		return $this->belongsTo('User');
+	}
+
 	public function client()
 	{
-		$this->belongsTo('Client', 'client_id');
+		return $this->belongsTo('Client', 'client_id');
 	}
 
 }
