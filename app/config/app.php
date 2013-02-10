@@ -110,6 +110,12 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
+		// Required services
+		'Basset\BassetServiceProvider',
+		'Cartalyst\Sentry\SentryServiceProvider',
+		'Meido\Form\FormServiceProvider',
+		'Meido\HTML\HTMLServiceProvider',
+		'Meido\Str\StrServiceProvider',
 	),
 
 	/*
@@ -167,10 +173,19 @@ return array(
 		'Response'        => 'Illuminate\Support\Facades\Response',
 		'Route'           => 'Illuminate\Support\Facades\Route',
 		'Schema'          => 'Illuminate\Support\Facades\Schema',
+		'Seeder'          => 'Illuminate\Database\Seeder',
 		'Session'         => 'Illuminate\Support\Facades\Session',
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+
+		// Custom facades
+		'Basset'     => 'Basset\Facades\Basset',
+		'Fluent'     => 'Illuminate\Support\Fluent',
+		'Form'       => 'Meido\Form\FormFacade',
+		'HTML'       => 'Meido\HTML\HTMLFacade',
+		'Sentry'     => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
+		'Str'        => 'Meido\Str\StrFacade',
 
 	),
 

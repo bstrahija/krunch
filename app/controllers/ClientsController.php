@@ -5,7 +5,7 @@ class ClientsController extends BaseController
 
 	public function index()
 	{
-		return 'Clients!!!!';
+		return View::make('clients.index');
 	}
 
 }

@@ -15,6 +15,7 @@ class CreateUsersTable extends Migration {
 			$t->increments('id')->unsigned();
 			$t->string('email', 250);
 			$t->string('password', 200);
+			$t->string('role', 10)->default('admin');
 			$t->timestamps();
 		});
 	}

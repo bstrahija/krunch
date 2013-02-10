@@ -3,11 +3,19 @@
 class AuthController extends BaseController
 {
 
+	/**
+	 * Display login form
+	 * @return View
+	 */
 	public function getLogin()
 	{
 		return View::make('auth.login');
 	}
 
+	/**
+	 * Login attempt
+	 * @return Redirect
+	 */
 	public function postLogin()
 	{
 		$credentials = array(
@@ -25,6 +33,10 @@ class AuthController extends BaseController
 		}
 	}
 
+	/**
+	 * Logout action
+	 * @return Redirect
+	 */
 	public function getLogout()
 	{
 		Auth::logout();

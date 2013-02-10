@@ -1,0 +1,361 @@
+98448074 /Users/boris/Library/Logs/Plex Media Server.old.log
+64294414 /Users/boris/Library/Logs/Plex Media Scanner.log
+8959248 /Users/boris/Library/Containers/com.agilebits.onepassword-osx-helper/Data/Library/Logs/1Password Helper.log
+2301789 /Users/boris/Library/Logs/Plex DLNA Server.old.log
+1891783 /Users/boris/Library/Application Support/Google/Chrome/Default/Extension State/000309.log
+1860084 /Users/boris/Library/Application Support/Google/Chrome/Default/Session Storage/004343.log
+1543486 /Users/boris/Library/Caches/Cleanup At Startup/Transmit/67FC5FAA-454D-4BC4-943E-7F7480C6F523/details_2013-02-07.log
+1211967 /Users/boris/NTH/workspace/kyntal-end-user-backend/data/log/kyntal_2013-01-24.log
+1111574 /Users/boris/Library/Application Support/Transmit/Logs/Transcript 1.log
+1017146 /Users/boris/Library/Logs/PMS Plugin Logs/com.plexapp.agents.htbackdrops.log
+960839 /Users/boris/NTH/workspace/.metadata/.log
+906936 /Users/boris/Library/Logs/PMS Plugin Logs/com.plexapp.agents.localmedia.log
+849703 /Users/boris/Library/Logs/PMS Plugin Logs/com.plexapp.agents.lastfm.log
+839680 /Users/boris/Library/Application Support/Transmit/Logs/Transcript 4.log
+783347 /Users/boris/NTH/workspace/kyntal-partner-platform-web/data/log/kyntal_2012-12-07.log
+782039 /Users/boris/NTH/workspace/kyntal-partner-platform-web/data/log/kyntal_2012-12-13.log
+674598 /Users/boris/Library/Logs/Plex Media Server.log
+637263 /Users/boris/NTH/workspace/kyntal-partner-platform-web/data/log/kyntal_2012-11-29.log
+624409 /Users/boris/Library/Logs/PDApp.log
+549721 /Users/boris/NTH/workspace/kyntal-partner-platform-web/data/log/kyntal_2012-12-02.log
+528854 /Users/boris/NTH/workspace/kyntal-end-user-backend/data/log/kyntal_2013-02-01.log
+505308 /Users/boris/NTH/workspace/kyntal-end-user-backend/data/log/kyntal_2013-01-31.log
+492647 /Users/boris/NTH/workspace/kyntal-partner-platform-web/data/log/kyntal_2012-12-11.log
+447668 /Users/boris/NTH/workspace/kyntal-end-user-backend/data/log/kyntal_2013-02-05.log
+434990 /Users/boris/Library/Application Support/Transmit/Logs/Transcript.log
+391951 /Users/boris/Library/Logs/Ubiquity/boris/ubiquity.log
+385767 /Users/boris/Library/Application Support/Transmit/Logs/Transcript 6.log
+372240 /Users/boris/NTH/workspace/kyntal-end-user-backend/data/log/kyntal_2013-01-30.log
+332625 /Users/boris/NTH/workspace/kyntal-partner-platform-web/data/log/kyntal_2012-12-14.log
+322855 /Users/boris/NTH/workspace/kyntal-partner-platform-web/data/log/kyntal_2012-12-06.log
+291907 /Users/boris/Library/Logs/GoogleSoftwareUpdateAgent.log
+244386 /Users/boris/Library/Logs/PMS Plugin Logs/com.plexapp.system.log
+235202 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-11-25-210127.log
+227063 /Users/boris/Library/Application Support/Transmit/Logs/Transcript 5.log
+206082 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-27-095158.log
+204941 /Users/boris/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/Evernote/logs/Evernote.1.log
+204931 /Users/boris/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/Evernote/logs/Evernote.5.log
+204885 /Users/boris/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/Evernote/logs/Evernote.3.log
+204859 /Users/boris/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/Evernote/logs/Evernote.2.log
+204808 /Users/boris/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/Evernote/logs/Evernote.4.log
+201136 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-10-154924.log
+196830 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2013-01-29.log
+196732 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-27-095205.log
+193746 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-11-30-194857.log
+188949 /Users/boris/Library/Logs/iStatMenus2.log
+188104 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-133107.log
+188011 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-11-30-202640.log
+187287 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-11-30-200757.log
+186692 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-11-30-194557.log
+183959 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-144525.log
+183611 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-11-30-200341.log
+183246 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-11-30-193930.log
+183211 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-160541.log
+183171 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-03-102743.log
+182630 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-111404.log
+182471 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-06-105849.log
+182463 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-11-30-194032.log
+182271 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-130259.log
+182138 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-134806.log
+179751 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-06-110156.log
+179447 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-11-30-200142.log
+179082 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-06-110236.log
+178706 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-03-104837.log
+178184 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-11-30-195608.log
+178097 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-11-30-195610.log
+177758 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-03-034250.log
+177723 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-06-105930.log
+177446 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-135814.log
+177412 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-06-110116.log
+177263 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-141654.log
+177218 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-152111.log
+177060 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-03-080119.log
+177045 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-03-104720.log
+176745 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-11-30-195704.log
+176675 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-03-072446.log
+176337 /Users/boris/NTH/workspace/kyntal-end-user-backend/data/log/kyntal_2013-01-28.log
+175840 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-153728.log
+174766 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-03-073452.log
+174703 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-111435.log
+173722 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-150906.log
+173226 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-06-110304.log
+172902 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-114057.log
+172083 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-03-102409.log
+171853 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-114501.log
+171558 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-144246.log
+170549 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-114623.log
+170426 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-03-081806.log
+170351 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-142723.log
+169866 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-03-080945.log
+169700 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-152116.log
+169658 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-03-080423.log
+169651 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-145228.log
+167649 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-150911.log
+167545 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-19-144251.log
+167462 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-03-081815.log
+165429 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-03-080431.log
+164834 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/stacks-2012-12-04-074732.log
+164502 /Users/boris/Library/Application Support/Transmit/Logs/Transcript 3.log
+163107 /Users/boris/Library/Logs/parallels.log
+153267 /Users/boris/Library/Application Support/Google/Chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000176.log
+122611 /Users/boris/Library/Logs/iPhone Updater Logs/iPhoneUpdater.log
+122574 /Users/boris/Library/Caches/Cleanup At Startup/Transmit/B7B01C5F-937B-4594-AB53-F2CFD262EA43/log_2013-02-07.log
+122574 /Users/boris/Library/Caches/Cleanup At Startup/Transmit/A77933F4-A41C-478A-BF4E-C4AD289ECE4B/log_2013-02-07.log
+115825 /Users/boris/NTH/workspace/kyntal-partner-platform-web/data/log/kyntal_2012-11-28.log
+109552 /Users/boris/Library/Caches/Cleanup At Startup/Transmit/27EBDBA6-D884-456C-A63B-811E7DC3ED55/log_2013-02-07.log
+108368 /Users/boris/Library/Logs/Box Sync/SyncEngine-3.3.45.log
+103989 /Users/boris/NTH/workspace/kyntal-end-user-backend/data/log/kyntal_2013-02-04.log
+95302 /Users/boris/Library/Logs/Ubiquity/boris/ubiquity-digest.log
+93319 /Users/boris/NTH/workspace/kyntal-end-user-backend/data/log/kyntal_2013-02-07.log
+85449 /Users/boris/Library/Caches/Cleanup At Startup/Transmit/FED9A1C3-ADF4-467E-99DD-2F0D286F0525/log_2013-02-07.log
+77106 /Users/boris/Library/Application Support/Sublime Text 3/Cache/_Index/000048.log
+75811 /Users/boris/Library/Logs/DeviceLink/AppleMobileDeviceHelper.00.log
+68126 /Users/boris/Sites/personal/krustr_laravel_bak/npm-debug.log
+66273 /Users/boris/NTH/workspace/kyntal-partner-platform-web/data/log/kyntal_2012-11-30.log
+59994 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-11-23.log
+59784 /Users/boris/Library/Application Support/Adobe/AAMUpdater/1.0/aamu.log
+58798 /Users/boris/.rbenv/versions/1.9.3-p374/lib/ruby/gems/1.9.1/gems/mysql2-0.3.11/ext/mysql2/mkmf.log
+55596 /Users/boris/Library/Application Support/Adobe/AAMUpdater/1.0/aamui.log
+55359 /Users/boris/.rbenv/versions/1.9.3-p374/lib/ruby/gems/1.9.1/gems/mysql-2.9.0/ext/mysql_api/mkmf.log
+50962 /Users/boris/NTH/workspace/kyntal-partner-platform-web/data/log/kyntal_2012-11-16.log
+50316 /Users/boris/Library/Containers/com.evernote.Evernote/Data/Library/Application Support/Evernote/logs/Evernote.log
+49545 /Users/boris/Library/Logs/Sync/syncservices.log
+45422 /Users/boris/Sites/nth/likecroatia/wp-content/plugins/wp-e-commerce/wpsc-merchants/library/googlemessage.log
+44921 /Users/boris/NTH/mps_workspace/.metadata/.log
+42677 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-12-14.log
+37667 /Users/boris/.codeintel/codeintel.log
+36759 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-12-13.log
+35662 /Users/boris/Library/Application Support/NetBeans/7.3rc2/var/log/messages.log
+34730 /Users/boris/Library/Application Support/Adobe/AAMUpdater/1.0/aamul.log
+31420 /Users/boris/Library/Logs/Box Sync/SyncEngine-3.3.45.2013-01-26.log
+30543 /Users/boris/Library/Application Support/Adobe/AAMUpdater/1.0/aamus.log
+27506 /Users/boris/Library/Logs/fsck_hfs.log
+27392 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-11-13.log
+27117 /Users/boris/NTH/workspace/kyntal-end-user-backend/data/log/kyntal_2013-01-25.log
+25591 /Users/boris/Library/Containers/com.apple.mail/Data/Library/Logs/Sync/syncservices.log
+24826 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/ExcResource_locationd_2013-01-15-140123_Boris-Strahijas-iPhone.log
+24653 /Users/boris/.rbenv/versions/1.9.3-p374/lib/ruby/gems/1.9.1/gems/sqlite3-1.3.7/ext/sqlite3/mkmf.log
+23396 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-12-27.log
+23097 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2013-01-24.log
+21945 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-11-28.log
+20928 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2013-01-07.log
+18658 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-11-08.log
+18289 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-11-19.log
+18040 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-12-17.log
+17076 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-11-20.log
+16637 /Users/boris/Library/Logs/PMS Plugin Logs/com.plexapp.agents.none.log
+15819 /Users/boris/NTH/workspace/kyntal-end-user-backend/data/log/kyntal_2013-02-06.log
+12354 /Users/boris/Library/Containers/com.agilebits.onepassword-osx/Data/Library/Logs/1Password.log
+11421 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/ExcResource_softwareupdated_2013-01-29-214901_Boris-Strahijas-iPhone.log
+11301 /Users/boris/Library/Application Support/Adobe/AAMUpdater/1.0/aamun.log
+10589 /Users/boris/NTH/workspace/kyntal-partner-platform-web/data/log/kyntal_2012-11-19.log
+10374 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-11-22.log
+9578 /Users/boris/NTH/workspace/kyntal-partner-platform-web/data/log/kyntal_2012-11-23.log
+9421 /Users/boris/Library/Logs/PMS Plugin Logs/com.plexapp.agents.opensubtitles.log
+8052 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2012-12-28-202242.log
+7944 /Users/boris/Library/Caches/Cleanup At Startup/Transmit/9CE9ED41-4C25-4BB3-8694-47FBD12CB9DC/log_2013-02-07.log
+7785 /Users/boris/Library/Logs/PMS Plugin Logs/com.plexapp.agents.thetvdb.log
+7670 /Users/boris/Library/Logs/PMS Plugin Logs/com.plexapp.agents.themoviedb.log
+7638 /Users/boris/Library/Caches/Cleanup At Startup/Transmit/FF280179-525F-41C5-B2D9-7CB1740D98EE/log_2013-02-07.log
+7638 /Users/boris/Library/Caches/Cleanup At Startup/Transmit/E1D1C5E0-87D5-445D-808D-605001392415/log_2013-02-07.log
+7638 /Users/boris/Library/Caches/Cleanup At Startup/Transmit/A0E7CD71-E954-4FA4-A8E6-002B8A145259/log_2013-02-07.log
+7638 /Users/boris/Library/Caches/Cleanup At Startup/Transmit/2587FBAE-8728-4716-AD5A-1EBBACB81072/log_2013-02-07.log
+7636 /Users/boris/Library/Logs/iStat Menus/istatmenus_install.log
+7592 /Users/boris/Downloads/All Downloads/mysql-5.5.29-osx10.6-x86_64/mysql-test/std_data/ndb_backup51/BACKUP-1.1.log
+7592 /Users/boris/Downloads/All Downloads/mysql-5.5.29-osx10.6-x86_64/mysql-test/std_data/ndb_backup50/BACKUP-1.1.log
+7549 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2012-12-25-102347.log
+7536 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2012-12-30-132931.log
+7534 /Users/boris/Library/Logs/PMS Plugin Logs/com.plexapp.agents.plexthememusic.log
+7525 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-11-21.log
+7498 /Users/boris/Library/Logs/PMS Plugin Logs/com.plexapp.agents.movieposterdb.log
+7463 /Users/boris/Library/Logs/PMS Plugin Logs/com.plexapp.agents.wikipedia.log
+7442 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2012-12-29-121839.log
+7440 /Users/boris/Library/Logs/PMS Plugin Logs/com.plexapp.agents.tvrage.log
+7433 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2013-01-29-184306.log
+7331 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2012-12-29-121917.log
+7307 /Users/boris/Library/Logs/Box Sync/SyncHelper(3.3.45)-2013-01-26.log
+7218 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2012-12-29-121955.log
+7128 /Users/boris/Downloads/All Downloads/mysql-5.5.29-osx10.6-x86_64/mysql-test/std_data/ndb_backup50/BACKUP-1.2.log
+7102 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2012-12-14-180851.log
+7091 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2012-12-24-233615.log
+6996 /Users/boris/Downloads/All Downloads/mysql-5.5.29-osx10.6-x86_64/mysql-test/std_data/ndb_backup51/BACKUP-1.2.log
+6995 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2013-01-15-231334.log
+6994 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2013-01-15-231616.log
+6988 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2012-11-25-013300.log
+6960 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2012-11-24-095744.log
+6881 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2013-01-13-120805.log
+6865 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2012-11-26-153306.log
+6740 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2013-01-25-235135.log
+6641 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2012-12-23-155303.log
+6640 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2013-01-15-134804.log
+6631 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2013-01-04-211051.log
+6628 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2013-01-05-173843.log
+6538 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2012-12-12-032744.log
+6403 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2013-01-11-131405.log
+6128 /Users/boris/Library/Logs/Box Sync/SyncHelper(3.3.45)-2013-01-31.log
+5309 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2013-01-14-133921.log
+5199 /Users/boris/Library/Logs/DeviceLink/MDCrashReportTool.00.log
+4872 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2013-01-25.log
+4845 /Users/boris/Library/Logs/PMS Plugin Logs/com.plexapp.agents.imdb.log
+4844 /Users/boris/Library/Logs/PMS Plugin Logs/com.plexapp.agents.cine21.log
+4528 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/LowMemory-2013-01-10-231748.log
+4457 /Users/boris/Library/Application Support/Coda 2/Logs/Transcript.log
+4163 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2013-01-31.log
+4034 /Users/boris/Library/Application Support/MainMenu Pro/MainMenu Pro.log
+3572 /Users/boris/Library/Logs/DeviceLink/AppleMobileBackup.00.log
+3499 /Users/boris/NTH/workspace/kyntal-partner-platform-web/data/log/kyntal_2012-12-03.log
+3205 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-11-06.log
+2990 /Users/boris/NTH/mps_workspace/mps-server/data/log/details_2013-02-06.log
+2913 /Users/boris/Sites/creo/pancake/system/pancake/logs/paypal_ipn.log
+2795 /Users/boris/NTH/mps_workspace/mps-server/data/log/log_2013-02-06.log
+2576 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2013-01-30.log
+2540 /Users/boris/Library/Logs/Ubiquity/ubiquity-mmcs.log
+2278 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-08-stats.log
+2258 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-17-stats.log
+1678 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-31-stats.log
+1663 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-16-stats.log
+1586 /Users/boris/Library/Application Support/MySQL/Workbench/log/wb.9.log
+1586 /Users/boris/Library/Application Support/MySQL/Workbench/log/wb.8.log
+1586 /Users/boris/Library/Application Support/MySQL/Workbench/log/wb.7.log
+1586 /Users/boris/Library/Application Support/MySQL/Workbench/log/wb.6.log
+1586 /Users/boris/Library/Application Support/MySQL/Workbench/log/wb.5.log
+1586 /Users/boris/Library/Application Support/MySQL/Workbench/log/wb.4.log
+1585 /Users/boris/Library/Application Support/MySQL/Workbench/log/wb.log
+1585 /Users/boris/Library/Application Support/MySQL/Workbench/log/wb.3.log
+1585 /Users/boris/Library/Application Support/MySQL/Workbench/log/wb.2.log
+1585 /Users/boris/Library/Application Support/MySQL/Workbench/log/wb.1.log
+1561 /Users/boris/Library/Application Support/Adobe/CS6ServiceManager/logs/CS6ServiceManager_native.log
+1553 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-27-stats.log
+1527 /Users/boris/Library/Application Support/AddressBook/Sources/1937F0FE-C3A1-4714-A052-18DC17380A94/migration.log
+1350 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2013-01-14.log
+1288 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-14-stats.log
+1198 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-23-stats.log
+1156 /Users/boris/Library/Application Support/Sublime Text 2/Packages/User/SFTP.errors.log
+1145 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-03-stats.log
+1139 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-18-stats.log
+1111 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-02-stats.log
+1103 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-15-stats.log
+1054 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-07-stats.log
+1047 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-14-stats.log
+1009 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-28-stats.log
+1007 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-16-stats.log
+1007 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-14-stats.log
+1003 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-15-stats.log
+943 /Users/boris/Library/Application Support/Google/Chrome/Default/IndexedDB/chrome-extension_fdmmgilgnpjigdojojpjoooidkmcomcm_0.indexeddb.leveldb/000331.log
+924 /Users/boris/Library/Application Support/NetBeans/7.3rc2/.metadata/.log
+918 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-12-stats.log
+915 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-26-stats.log
+914 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-17-stats.log
+914 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-07-stats.log
+911 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-02-02-stats.log
+847 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-02-01-stats.log
+844 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-23-stats.log
+824 /Users/boris/Library/Logs/Plex DLNA Server.log
+819 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-18-stats.log
+816 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-06-stats.log
+810 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-22-stats.log
+805 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-11-09.log
+766 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-12-04.log
+746 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-01-stats.log
+735 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2013-01-10.log
+725 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-04-stats.log
+722 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-10-stats.log
+722 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-05-stats.log
+719 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-28-stats.log
+719 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-23-stats.log
+719 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-20-stats.log
+714 /Users/boris/Library/Logs/Ubiquity/boris/ubiquity-mmcs.log
+711 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-28-stats.log
+709 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-21-stats.log
+704 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-20-stats.log
+688 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-11-stats.log
+656 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-09-stats.log
+633 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-02-stats.log
+629 /Users/boris/Library/Application Support/Google/Chrome/Default/Local Extension Settings/ojhmphdkpgbibohbnpbfiefkgieacjmh/000003.log
+625 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-02-04-stats.log
+623 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-09-stats.log
+620 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-10-stats.log
+618 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-24-stats.log
+616 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-05-stats.log
+612 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-12-stats.log
+571 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-17-stats.log
+568 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-29-stats.log
+564 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-24-stats.log
+562 /Users/boris/NTH/workspace/kyntal-partner-platform-backend/data/log/kyntal_2012-12-11.log
+561 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-21-stats.log
+543 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-30-stats.log
+530 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-11-stats.log
+526 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-13-stats.log
+525 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-19-stats.log
+524 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-24-stats.log
+523 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-29-stats.log
+522 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-29-stats.log
+517 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-19-stats.log
+509 /Users/boris/Library/Application Support/KomodoIDE/7.1/pystderr.log
+473 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-20-stats.log
+429 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-31-stats.log
+428 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-21-stats.log
+426 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-27-stats.log
+426 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-01-stats.log
+425 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-16-stats.log
+424 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-19-stats.log
+418 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-13-stats.log
+418 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-03-stats.log
+418 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-22-stats.log
+332 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-02-05-stats.log
+332 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-08-stats.log
+332 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-30-stats.log
+328 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-25-stats.log
+323 /Users/boris/Library/Application Support/Google/Chrome/Default/File System/000/t/Paths/000851.log
+312 /Users/boris/Library/Application Support/The Hit List/Logs/The Hit List 2013-01-31-030888.log
+277 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-25-stats.log
+275 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-12-30-stats.log
+274 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-25-stats.log
+234 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/ResetCounter-2012-12-23-024707.log
+233 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-02-03-stats.log
+232 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-15-stats.log
+231 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/ResetCounter-2013-01-03-164325.log
+231 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/ResetCounter-2012-11-26-211513.log
+231 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-22-stats.log
+231 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2013-01-04-stats.log
+230 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/ResetCounter-2012-12-23-025527.log
+230 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/ResetCounter-2012-12-23-025241.log
+230 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/ResetCounter-2012-12-23-020649.log
+230 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/ResetCounter-2012-12-23-020309.log
+230 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/ResetCounter-2012-11-26-211647.log
+221 /Users/boris/Library/Application Support/The Hit List/Logs/The Hit List 2012-12-17-072811.log
+219 /Users/boris/Library/Application Support/The Hit List/Logs/The Hit List 2013-02-07-050204.log
+219 /Users/boris/Library/Application Support/The Hit List/Logs/The Hit List 2013-02-05-067170.log
+219 /Users/boris/Library/Application Support/The Hit List/Logs/The Hit List 2013-02-02-074003.log
+219 /Users/boris/Library/Application Support/The Hit List/Logs/The Hit List 2012-12-30-063690.log
+219 /Users/boris/Library/Application Support/The Hit List/Logs/The Hit List 2012-12-14-064268.log
+219 /Users/boris/Library/Application Support/The Hit List/Logs/The Hit List 2012-12-13-032922.log
+219 /Users/boris/Library/Application Support/The Hit List/Logs/The Hit List 2012-12-10-078529.log
+219 /Users/boris/Library/Application Support/The Hit List/Logs/The Hit List 2012-12-10-002813.log
+134 /Users/boris/Library/Logs/CrashReporter/MobileDevice/Boris Strahija’s iPhone/Baseband/log-bb-2012-11-26-stats.log
+134 /Users/boris/Library/Application Support/iPhone Simulator/6.0/Library/Logs/com.apple.itunesstored/itunesstored.log
+122 /Users/boris/Library/Logs/DiskUtility.log
+84 /Users/boris/.npm/jamjs/0.2.12/package/rcouch/package/deb/rcouch.debhelper.log
+72 /Users/boris/.rbenv/versions/1.9.3-p374/lib/ruby/gems/1.9.1/gems/erubis-2.7.0/test/data/users-guide/stderr.log
+48 /Users/boris/Library/Logs/SparkleUpdateLog.log
+44 /Users/boris/Downloads/All Downloads/mysql-5.5.29-osx10.6-x86_64/mysql-test/std_data/ndb_backup51_data_le/BACKUP-1.2.log
+44 /Users/boris/Downloads/All Downloads/mysql-5.5.29-osx10.6-x86_64/mysql-test/std_data/ndb_backup51_data_le/BACKUP-1.1.log
+44 /Users/boris/Downloads/All Downloads/mysql-5.5.29-osx10.6-x86_64/mysql-test/std_data/ndb_backup51_data_be/BACKUP-1.2.log
+44 /Users/boris/Downloads/All Downloads/mysql-5.5.29-osx10.6-x86_64/mysql-test/std_data/ndb_backup51_data_be/BACKUP-1.1.log
+44 /Users/boris/Downloads/All Downloads/mysql-5.5.29-osx10.6-x86_64/mysql-test/std_data/ndb_backup50/BACKUP-2.2.log
+44 /Users/boris/Downloads/All Downloads/mysql-5.5.29-osx10.6-x86_64/mysql-test/std_data/ndb_backup50/BACKUP-2.1.log
+42 /Users/boris/Library/Logs/iStatMenus.log
+3 /Users/boris/Library/Application Support/Adobe/CS6ServiceManager/logs/Vulcan.log
+1 /Users/boris/Library/Application Support/KomodoIDE/7.1/pystdout.log
+0 /Users/boris/Sites/nth/likecroatia/wp-content/plugins/wp-e-commerce/wpsc-merchants/library/googleerror.log
+0 /Users/boris/NTH/mps_workspace/mps-web/data/log/log_2013-02-06.log
+0 /Users/boris/NTH/mps_workspace/mps-web/data/log/details_2013-02-06.log
+0 /Users/boris/Library/Logs/appstore.log
+0 /Users/boris/Library/Logs/Plex DLNA Server Neptune.old.log
+0 /Users/boris/Library/Logs/Plex DLNA Server Neptune.log
+0 /Users/boris/Library/Application Support/Transmit/Logs/Transcript 2.log
+0 /Users/boris/Library/Application Support/Steam/steam.log
+0 /Users/boris/Library/Application Support/Google/Chrome/Default/Sync Extension Settings/ojhmphdkpgbibohbnpbfiefkgieacjmh/000112.log
+0 /Users/boris/Library/Application Support/Google/Chrome/Default/File System/Origins/000904.log
+0 /Users/boris/Library/Application Support/Google/Chrome/Default/File System/002/t/Paths/000005.log
+0 /Users/boris/Library/Application Support/Google/Chrome/Default/File System/001/p/Paths/000358.log

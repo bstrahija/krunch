@@ -15,6 +15,7 @@ ClassLoader::addDirectories(array(
 
 	app_path().'/controllers',
 	app_path().'/models',
+	app_path().'/database/seeds',
 
 ));
 
@@ -29,7 +30,9 @@ ClassLoader::addDirectories(array(
 |
 */
 
-Log::useDailyFiles(__DIR__.'/../storage/logs/log.txt');
+$logFile = 'log-'.php_sapi_name().'.txt';
+
+Log::useDailyFiles(__DIR__.'/../storage/logs/'.$logFile);
 
 /*
 |--------------------------------------------------------------------------
@@ -61,3 +64,16 @@ App::error(function(Exception $exception, $code)
 */
 
 require __DIR__.'/../filters.php';
+
+/*
+|--------------------------------------------------------------------------
+| Require The Helpers Files (Composers, Macros, etc.)
+|--------------------------------------------------------------------------
+|
+| Just load all the required global helper files
+|
+*/
+
+require __DIR__.'/assets.php';
+// require __DIR__.'/../helpers/composers.php';
+// require __DIR__.'/../helpers/helpers.php';

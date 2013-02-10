@@ -20,7 +20,9 @@ Route::get('logout', array('as' => 'logout', 'uses' => 'AuthController@getLogout
 
 Route::group(array('before' => 'auth'), function()
 {
+	Route::get('/', 'DashboardController@index');
 	Route::resource('dashboard', 'DashboardController');
 	Route::resource('invoices',  'InvoicesController');
+	Route::resource('clients',   'ClientsController');
 	Route::resource('users',     'UsersController');
 });
