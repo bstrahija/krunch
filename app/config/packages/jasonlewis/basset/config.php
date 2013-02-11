@@ -40,7 +40,7 @@ return array(
 	|
 	*/
 
-	'compiling_path' => 'assets',
+	'compiling_path' => 'assets/cache',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -125,7 +125,7 @@ return array(
 	|
 	*/
 
-	'production_environment' => '',
+	'production_environment' => true,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -134,7 +134,7 @@ return array(
 	|
 	| A named filter can be used to quickly apply a filter to a collection of
 	| assets.
-	| 
+	|
 	|	'YuiCss' => 'Yui\CssCompressorFilter'
 	|
 	| If you'd like to specify options for a named filter you can define the

@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/boris/Sites/personal/krunch",
+			"file_exclude_patterns":
+			[
+				"*.sublime-project",
+				"*.sublime-workspace"
+			]
+		}
+	]
+}

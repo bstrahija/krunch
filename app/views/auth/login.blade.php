@@ -19,7 +19,9 @@
 				</div>
 
 				<div class="control-group">
-					<button type="submit" class="bth btn-primary">Login</button>
+					<div class="controls">
+						<button type="submit" class="btn btn-primary">Login</button>
+					</div>
 				</div>
 			</fieldset>
 		</form>

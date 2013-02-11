@@ -6,5 +6,8 @@
 </div><!--/#layout-->
 
 {{{ Basset::show('script.js') }}}
+
+<script type="text/javascript" src="{{ URL::to('assets/js/controllers/invoice.js') }}"></script>
+
 </body>
 </html>

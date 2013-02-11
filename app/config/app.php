@@ -185,7 +185,7 @@ return array(
 		'Basset'     => 'Basset\Facades\Basset',
 		'Fluent'     => 'Illuminate\Support\Fluent',
 		'Form'       => 'Meido\Form\FormFacade',
-		'HTML'       => 'Meido\HTML\HTMLFacade',
+		'HTML'       => 'App\Helpers\HTML',
 		'Profiler'   => 'Profiler\Facades\Profiler',
 		'Sentry'     => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
 		'Str'        => 'Meido\Str\StrFacade',
