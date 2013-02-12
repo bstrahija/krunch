@@ -7,7 +7,7 @@
 	<thead>
 		<tr>
 			<th>
-
+				<img src="<?php echo URL::to('assets/img/logo.png'); ?>">
 			</th>
 		</tr>
 	</thead>

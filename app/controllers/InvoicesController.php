@@ -13,7 +13,7 @@ class InvoicesController extends BaseController
 		Profiler::disable();
 
 		// Get invoice info and generated html
-		return Invoice::generate($id, 'pdf.creo');
+		return Invoice::generate($id, 'pdf.creo.layout');
 	}
 
 	public function edit($id)

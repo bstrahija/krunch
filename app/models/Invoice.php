@@ -27,11 +27,14 @@ class Invoice extends Eloquent
 	public static function generate($invoiceId, $template)
 	{
 		// Get invoice and template
-		$invoice = static::with('client')->find($invoiceId);
+		$invoice = static::with(array('client', 'user', 'items'))->find($invoiceId);
 		$html    = View::make($template)->with('invoice', $invoice);
 
 		// Fire event
 		Event::fire('invoice.generate', $invoice);
+
+		// Preview
+		return $html;
 
 		// Generate the invoice PDF
 		$pdf = new TCPDF('p', 'mm', 'A4', true, 'UTF-8');
