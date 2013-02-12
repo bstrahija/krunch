@@ -1,5 +1,5 @@
-function clientCtrl($scope, $http) {
-	$http({ method: "GET", url: "/api/clients", headers: { apikey: "xoho9vo8jofu5whi4wert8tart7te6ri" } }).
+function ClientCtrl($scope, $http) {
+	$http({ method: "GET", url: "/api/clients", headers: { apikey: API_KEY } }).
 		success(function(data, status, headers, config) {
 			$scope.clients = data;
 		}).
@@ -7,9 +7,5 @@ function clientCtrl($scope, $http) {
 
 		});
 
-
-	/*$http.get("/api/clients").success(function(data) {
-		console.log(data);
-		$scope.clients = data;
-	});*/
+	$scope.orderProp = 'title';
 }

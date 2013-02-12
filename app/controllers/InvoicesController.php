@@ -43,10 +43,18 @@ class InvoicesController extends BaseController
 		{
 			$invoice->title = Input::get('title');
 			$invoice->save();
+
 			return Redirect::to('invoices/' . $id . '/edit')->with('success', true);
 		}
 
 		return Redirect::to('invoices/' . $id . '/edit')->withInput()->withErrors($validator);
+	}
+
+	public function destroy($id)
+	{
+		Invoice::where('id', $id)->delete();
+
+		return Redirect::to('invoices')->with('success', true);
 	}
 
 }
