@@ -18,6 +18,10 @@ class UserTableSeeder extends Seeder
 			'first_name'  => 'Boris',
 			'last_name'   => 'Strahija',
 			'company'     => 'Creo',
+			'account_num' => '2340009-1166032923',
+			'iban'        => 'HR5623400091166032923',
+			'swift'       => 'PBZGHR2X',
+			'tax'         => 25.00,
 			'created_at'  => date('Y-m-d H:i:s'),
 			'updated_at'  => date('Y-m-d H:i:s'),
 		));

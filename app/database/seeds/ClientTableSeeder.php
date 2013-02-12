@@ -9,9 +9,11 @@ class ClientTableSeeder extends Seeder
 			'email'       => 'info@bigdeal.si',
 			'manager'     => 'Ana Eterović',
 			'name'        => 'BigDeal',
+			'address'     => 'Kolodvorska 20a',
 			'city'        => 'Ljubljana',
 			'zip'         => '1000',
 			'country'     => 'Slovenia',
+			'tax_num'     => 'SI25516957',
 			'created_at'  => date('Y-m-d H:i:s'),
 			'updated_at'  => date('Y-m-d H:i:s'),
 		));
@@ -23,6 +25,7 @@ class ClientTableSeeder extends Seeder
 			'city'        => 'Čakovec',
 			'zip'         => '40000',
 			'country'     => 'Croatia',
+			'tax_num'     => '31321312312312312',
 			'created_at'  => date('Y-m-d H:i:s'),
 			'updated_at'  => date('Y-m-d H:i:s'),
 		));
@@ -34,6 +37,7 @@ class ClientTableSeeder extends Seeder
 			'city'        => 'Čakovec',
 			'zip'         => '40000',
 			'country'     => 'Croatia',
+			'tax_num'     => '98438209809834',
 			'created_at'  => date('Y-m-d H:i:s'),
 			'updated_at'  => date('Y-m-d H:i:s'),
 		));

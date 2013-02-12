@@ -21,6 +21,7 @@ class CreateClientsTable extends Migration {
 			$t->string('city');
 			$t->string('zip');
 			$t->string('country');
+			$t->string('tax_num');
 			$t->timestamps();
 		});
 	}
