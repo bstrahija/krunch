@@ -11,9 +11,10 @@
 			<?php if ( ! Auth::guest()) : ?>
 				<div class="nav-collapse collapse">
 					<ul class="nav">
-						<li class="<?php echo (Request::segment(1) == 'dashboard') ? 'active' : null ; ?>"><a href="<?php echo URL::to('dashboard'); ?>"><i class="icon-dashboard"></i> Dashboard</a></li>
+						<li class="<?php echo (Request::segment(1) == 'dashboard') ? 'active' : null ; ?>"><a href="<?php echo URL::to('dashboard'); ?>"><i class="icon-home"></i></a></li>
 						<li class="<?php echo (Request::segment(1) == 'invoices')  ? 'active' : null ; ?>"><a href="<?php echo URL::to('invoices'); ?>"><i class="icon-briefcase"></i> Invoices</a></li>
 						<li class="<?php echo (Request::segment(1) == 'clients')   ? 'active' : null ; ?>"><a href="<?php echo URL::to('clients'); ?>"><i class="icon-user"></i> Clients</a></li>
+						<li class="<?php echo (Request::segment(1) == 'projects')  ? 'active' : null ; ?>"><a href="<?php echo URL::to('projects'); ?>"><i class="icon-lightbulb"></i> Projects</a></li>
 					</ul>
 					<ul class="nav pull-right">
 						<li><a href="<?php echo URL::to('logout'); ?>" title="Logout"><i class="icon-lock"></i> Logout</a></li>

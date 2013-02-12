@@ -9,8 +9,18 @@ class Client extends Eloquent
 		return $this->hasMany('Invoice');
 	}
 
+	public function projects()
+	{
+		return $this->hasMany('Project');
+	}
+
 	public function payments()
 	{
-		$this->hasMany('Payment');
+		return $this->hasMany('Payment');
+	}
+
+	public function user()
+	{
+		return $this->belongsTo('User');
 	}
 }

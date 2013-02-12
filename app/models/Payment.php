@@ -11,6 +11,6 @@ class Payment extends Eloquent
 
 	public function client()
 	{
-		$this->belongsTo('Client');
+		return $this->belongsTo('Client');
 	}
 }

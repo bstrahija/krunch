@@ -18,6 +18,7 @@ class CreateUsersTable extends Migration {
 			$t->string('first_name', 100);
 			$t->string('last_name', 100);
 			$t->string('company', 100);
+			$t->string('image', 250);
 			$t->string('role', 10)->default('admin');
 			$t->timestamps();
 		});

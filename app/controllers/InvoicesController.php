@@ -5,7 +5,7 @@ class InvoicesController extends BaseController
 
 	public function index()
 	{
-		$this->setContent('invoices.index', array('invoices' => Invoice::paginate(20)));
+		$this->setContent('invoices.index', array('invoices' => Invoice::with('client')->paginate(20)));
 	}
 
 	public function show($id)

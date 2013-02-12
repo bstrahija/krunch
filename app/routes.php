@@ -27,6 +27,7 @@ Route::group(array('before' => 'auth'), function()
 	Route::resource('dashboard', 'DashboardController');
 	Route::resource('invoices',  'InvoicesController');
 	Route::resource('clients',   'ClientsController');
+	Route::resource('projects',  'ProjectsController');
 	Route::resource('users',     'UsersController');
 });
 
@@ -35,6 +36,7 @@ Route::group(array('before' => 'api_auth'), function()
 {
 	Route::resource('api/invoices',  'Api\InvoicesController');
 	Route::resource('api/clients',   'Api\ClientsController');
+	Route::resource('api/projects',  'Api\ProjectsController');
 });
 
 if (Request::segment(1) == 'api')

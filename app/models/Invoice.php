@@ -21,13 +21,17 @@ class Invoice extends Eloquent
 
 	public function payments()
 	{
-		$this->hasMany('Payment');
+		return $this->hasMany('Payment');
 	}
 
 	public static function generate($invoiceId, $template)
 	{
+		// Get invoice and template
 		$invoice = static::with('client')->find($invoiceId);
-		$html    = View::make('pdf.creo')->with('invoice', $invoice);
+		$html    = View::make($template)->with('invoice', $invoice);
+
+		// Fire event
+		Event::fire('invoice.generate', $invoice);
 
 		// Generate the invoice PDF
 		$pdf = new TCPDF('p', 'mm', 'A4', true, 'UTF-8');
