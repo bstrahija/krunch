@@ -1,6 +1,17 @@
 <?php
 
-class BaseController extends Controller {
+class BaseController extends Controller
+{
+	protected $layout = 'layouts.default';
+
+	/**
+	 * Add content to layout
+	 * @param string $view
+	 */
+	public function setContent($view, $with = null)
+	{
+		$this->layout->content = View::make($view)->with($with);;
+	}
 
 	/**
 	 * Setup the layout used by the controller.

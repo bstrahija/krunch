@@ -3,11 +3,11 @@
 <head>
 	<title>Krunch</title>
 
-	{{{ Basset::show('style.css') }}}
+	<?php echo Basset::show('style.css'); ?>
 </head>
 <body>
 <header>
-	@include ('layouts.partial.nav')
+	<?php echo View::make('layouts.partial.nav'); ?>
 </header>
 
 <div class="container-fluid" id="layout">

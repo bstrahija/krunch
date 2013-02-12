@@ -5,8 +5,7 @@ class InvoicesController extends BaseController
 
 	public function index()
 	{
-		return View::make('invoices.index')
-		           ->with('invoices', Invoice::paginate(20));
+		$this->setContent('invoices.index', array('invoices' => Invoice::paginate(20)));
 	}
 
 	public function show($id)
@@ -19,9 +18,10 @@ class InvoicesController extends BaseController
 
 	public function edit($id)
 	{
-		return View::make('invoices.edit')
-		           ->with('clients', Client::all())
-		           ->with('invoice', Invoice::find($id));
+		$this->setContent('invoices.edit', array(
+			'clients' => Client::all(),
+			'invoice' => Invoice::find($id),
+		));
 	}
 
 	public function store($id)

@@ -1,12 +1,9 @@
-@extends ('layouts.default')
-
-@section ('content')
 	<div class="login-form">
 		<h2>Login</h2>
 
 		<?php //echo '<pre>'; print_r(Session::get('errors')); echo '</pre>'; ?>
 
-		<form method="POST" action="{{ URL::to('login') }}" accept-charset="utf-8" class="form-horizontal">
+		<form method="POST" action="<?php echo URL::to('login'); ?>" accept-charset="utf-8" class="form-horizontal">
 			<fieldset>
 				<div class="control-group">
 					<label class="control-label">Email:</label>
@@ -26,4 +23,3 @@
 			</fieldset>
 		</form>
 	</div>
-@stop

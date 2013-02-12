@@ -5,14 +5,12 @@ class ClientsController extends BaseController
 
 	public function index()
 	{
-		return View::make('clients.index')
-		           ->with('clients', Client::all());
+		$this->setContent('clients.index', array('clients' => Client::all()));
 	}
 
 	public function edit($id)
 	{
-		return View::make('clients.edit')
-		           ->with('client', Client::find($id));
+		$this->setContent('clients.edit', array('client' => Client::find($id)));
 	}
 
 }

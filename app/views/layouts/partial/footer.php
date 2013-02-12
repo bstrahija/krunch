@@ -5,9 +5,9 @@
 	</footer>
 </div><!--/#layout-->
 
-{{{ Basset::show('script.js') }}}
+<?php Basset::show('script.js'); ?>
 
-<script type="text/javascript" src="{{ URL::to('assets/js/controllers/invoice.js') }}"></script>
+<script type="text/javascript" src="<?php echo URL::to('assets/js/controllers/invoice.js'); ?>"></script>
 
 </body>
 </html>
