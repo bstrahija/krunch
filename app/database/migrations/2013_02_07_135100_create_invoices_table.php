@@ -15,10 +15,15 @@ class CreateInvoicesTable extends Migration {
 			$t->increments('id')->unsigned();
 			$t->string('invoice_num', 50);
 			$t->string('title', 250);
+			$t->text('notes');
 			$t->float('amount');
+			$t->float('discount');
 			$t->integer('user_id')->unsigned();
 			$t->integer('client_id')->unsigned();
+			$t->float('tax');
+			$t->string('currency', 3);
 			$t->dateTime('sent_at')->nullable()->default(null);
+			$t->dateTime('due_at')->nullable()->default(null);
 			$t->dateTime('payed_at')->nullable()->default(null);
 			$t->timestamps();
 		});

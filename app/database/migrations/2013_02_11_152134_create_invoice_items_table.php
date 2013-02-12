@@ -16,6 +16,7 @@ class CreateInvoiceItemsTable extends Migration {
 			$t->integer('invoice_id')->unsigned();
 			$t->string('type', 50);
 			$t->string('title');
+			$t->text('notes');
 			$t->float('quantity')->default(1);
 			$t->float('unit_price');
 			$t->float('amount');
