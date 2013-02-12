@@ -19,6 +19,11 @@ class Invoice extends Eloquent
 		return $this->hasMany('InvoiceItem');
 	}
 
+	public function payments()
+	{
+		$this->hasMany('Payment');
+	}
+
 	public static function generate($invoiceId, $template)
 	{
 		$invoice = static::with('client')->find($invoiceId);

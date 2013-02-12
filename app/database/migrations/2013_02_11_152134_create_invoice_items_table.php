@@ -13,7 +13,7 @@ class CreateInvoiceItemsTable extends Migration {
 	{
 		Schema::create('invoice_items', function($t) {
 			$t->increments('id')->unsigned();
-			$t->integer('invoice_id');
+			$t->integer('invoice_id')->unsigned();
 			$t->string('type', 50);
 			$t->string('title');
 			$t->float('quantity')->default(1);

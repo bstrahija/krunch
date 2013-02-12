@@ -8,4 +8,9 @@ class Client extends Eloquent
 	{
 		return $this->hasMany('Invoice');
 	}
+
+	public function payments()
+	{
+		$this->hasMany('Payment');
+	}
 }

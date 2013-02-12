@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 
-class CreateInvoicesTable extends Migration {
+class CreateActivitiesTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -11,15 +11,13 @@ class CreateInvoicesTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('invoices', function($t) {
+		Schema::create('activities', function($t){
 			$t->increments('id')->unsigned();
-			$t->string('invoice_num', 50);
-			$t->string('title', 250);
-			$t->float('amount');
+			$t->string('message');
 			$t->integer('user_id')->unsigned();
 			$t->integer('client_id')->unsigned();
-			$t->dateTime('sent_at')->nullable()->default(null);
-			$t->dateTime('payed_at')->nullable()->default(null);
+			$t->integer('invoice_id')->unsigned();
+			$t->integer('payment_id')->nullable();
 			$t->timestamps();
 		});
 	}
@@ -31,7 +29,7 @@ class CreateInvoicesTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('invoices');
+		Schema::drop('activities');
 	}
 
 }
