@@ -6,6 +6,11 @@ use Invoice;
 class InvoicesController extends ApiController
 {
 
+	public function getIndex()
+	{
+
+	}
+
 	public function index()
 	{
 		return Invoice::all();
