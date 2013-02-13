@@ -8,7 +8,7 @@ class ClientTableSeeder extends Seeder
 			'user_id'     => 2,
 			'email'       => 'info@bigdeal.si',
 			'manager'     => 'Ana Eterović',
-			'name'        => 'BigDeal',
+			'name'        => 'iMedia 2.0 d.o.o.',
 			'address'     => 'Kolodvorska 20a',
 			'city'        => 'Ljubljana',
 			'zip'         => '1000',

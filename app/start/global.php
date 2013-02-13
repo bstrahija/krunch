@@ -74,6 +74,7 @@ require __DIR__.'/../filters.php';
 |
 */
 
+View::addNamespace('pdf', '../public/pdf');
 require __DIR__.'/assets.php';
 // require __DIR__.'/../helpers/composers.php';
 // require __DIR__.'/../helpers/helpers.php';

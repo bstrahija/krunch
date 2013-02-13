@@ -34,7 +34,7 @@ class Invoice extends Eloquent
 		Event::fire('invoice.generate', $invoice);
 
 		// Preview
-		return $html;
+		//return $html;
 
 		// Generate the invoice PDF
 		$pdf = new TCPDF('p', 'mm', 'A4', true, 'UTF-8');
