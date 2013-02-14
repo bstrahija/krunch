@@ -10,10 +10,9 @@
 		<li>
 			Invoices: <strong><?php echo Invoice::count(); ?></strong>
 		</li>
+		<li>
+			Projects: <strong><?php echo Project::count(); ?></strong>
+		</li>
 	</ul>
-	<hr>
-
-	<?php echo HTML::to('clients', 'Clients', array('icon' => 'briefcase')); ?><br>
-	<?php echo HTML::to('invoices', 'Invoices', array('icon' => 'book')); ?><br>
 
 <?php View::stopSection(); ?>

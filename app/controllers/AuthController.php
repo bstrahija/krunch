@@ -23,7 +23,7 @@ class AuthController extends BaseController
 			'password' => Input::get('password')
 		);
 
-		if (Auth::attempt($credentials))
+		if (Auth::attempt($credentials, true))
 		{
 			return Redirect::to('dashboard');
 		}
