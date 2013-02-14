@@ -8,6 +8,11 @@ class ProjectsController extends BaseController
 		$this->setContent('projects.index', array('projects' => Project::with('client')->paginate(20)));
 	}
 
+	public function create()
+	{
+		$this->setContent('projects.create');
+	}
+
 	public function edit($id)
 	{
 		$this->setContent('projects.edit', array('project' => Project::find($id)));

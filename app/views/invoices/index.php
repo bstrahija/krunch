@@ -1,6 +1,9 @@
 <?php View::startSection('content'); ?>
 
-	<h1>Invoices</h1>
+	<h1>
+		Invoices
+		<?php echo HTML::actionCreate('New invoice', 'invoices', array('icon' => 'plus-sign-alt', 'class' => 'btn btn-success')); ?>
+	</h1>
 
 	<?php if ($invoices and ! empty($invoices)) : ?>
 		<table class="table table-striped">

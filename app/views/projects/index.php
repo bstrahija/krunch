@@ -1,6 +1,9 @@
 <?php View::startSection('content'); ?>
 
-	<h1>Projects</h1>
+	<h1>
+		Projects
+		<?php echo HTML::actionCreate('New project', 'projects', array('icon' => 'plus-sign-alt', 'class' => 'btn btn-success')); ?>
+	</h1>
 
 	<?php if ($projects and ! empty($projects)) : ?>
 		<table class="table table-striped">

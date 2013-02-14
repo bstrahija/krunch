@@ -33,6 +33,7 @@ class HTML extends \Meido\HTML\HTMLFacade
 
 		// Build URL
 		if     ($action == 'edit')   $url = $name . '/' . $id . '/edit';
+		elseif ($action == 'create') $url = $name . '/create';
 		elseif ($action == 'delete') { return static::deleteButton($label, $name, $resource, $attributes); }
 		else                         $url = $name . '/' . $id;
 
@@ -65,6 +66,19 @@ class HTML extends \Meido\HTML\HTMLFacade
 	public static function actionShow($label = '', $name, $resource, $attributes = array())
 	{
 		return static::action('show', $label, $name, $resource, $attributes);
+	}
+
+
+	/**
+	 * Build link for create action
+	 * @param  string $label
+	 * @param  string $name
+	 * @param  array  $attributes
+	 * @return string
+	 */
+	public static function actionCreate($label = '', $name, $attributes = array())
+	{
+		return static::action('create', $label, $name, null, $attributes);
 	}
 
 

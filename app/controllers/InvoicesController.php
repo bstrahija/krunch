@@ -16,6 +16,11 @@ class InvoicesController extends BaseController
 		return Invoice::generate($id, 'pdf::creo.layout');
 	}
 
+	public function create()
+	{
+		$this->setContent('invoices.create');
+	}
+
 	public function edit($id)
 	{
 		$this->setContent('invoices.edit', array(
