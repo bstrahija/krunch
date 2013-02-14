@@ -12,7 +12,7 @@
 */
 
 // ! Public route
-Route::get('invoice/{any}', 'PublicController@display');
+Route::get('ln/{hash}', 'PublicController@display');
 
 // ! Auth routes
 Route::controller('auth', 'AuthController');

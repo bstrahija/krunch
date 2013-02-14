@@ -22,6 +22,7 @@ class CreateInvoicesTable extends Migration {
 			$t->integer('client_id')->unsigned();
 			$t->float('tax');
 			$t->string('currency', 3);
+			$t->string('hash', 64);
 			$t->dateTime('sent_at')->nullable()->default(null);
 			$t->dateTime('due_at')->nullable()->default(null);
 			$t->dateTime('payed_at')->nullable()->default(null);
