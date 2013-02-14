@@ -24,6 +24,19 @@ class Invoice extends Eloquent
 		return $this->hasMany('Payment');
 	}
 
+	public function currency(Invoice $invoice, $symbol = true)
+	{
+		if ( ! $invoice->currency) $invoice->currency = $invoice->user->currency;
+
+		// Symbols
+		if ($symbol)
+		{
+			if ($invoice->currency == 'EUR') $invoice->currency = '€';
+		}
+
+		return $invoice->currency;
+	}
+
 	public static function generate($invoiceId, $template)
 	{
 		// Get invoice and template

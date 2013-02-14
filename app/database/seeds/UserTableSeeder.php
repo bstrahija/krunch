@@ -26,6 +26,7 @@ class UserTableSeeder extends Seeder
 			'mobile'      => '+385 992021134',
 			'web'         => 'http://creolab.hr',
 			'account_num' => '2340009-1166032923',
+			'tax_num'     => '36888607165',
 			'iban'        => 'HR5623400091166032923',
 			'swift'       => 'PBZGHR2X',
 			'tax'         => 25.00,
