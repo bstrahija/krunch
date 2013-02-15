@@ -51,13 +51,13 @@
 				</p>
 				<p>
 					@if (isset($invoice->user->phone))
-						{{ $invoice->user->phone }}<br>
+						<strong>T:</strong> {{ $invoice->user->phone }}<br>
 					@endif
 					@if (isset($invoice->user->mobile))
-						{{ $invoice->user->mobile }}<br>
+						<strong>M:</strong> {{ $invoice->user->mobile }}<br>
 					@endif
-					{{ $invoice->user->email }}<br>
-					{{ $invoice->user->web }}<br>
+					<strong>E:</strong> {{ $invoice->user->email }}<br>
+					<strong>W:</strong> {{ $invoice->user->web }}<br>
 				</p>
 			</td>
 			<td class="r client">
@@ -83,23 +83,25 @@
 
 				<table class="summary" width="540" cellpadding="5">
 					<tr>
-						<th width="380">Naziv</th>
+						<th width="300">Naziv</th>
 						<th width="60">Količina</th>
+						<th width="80">Jed. cijena</th>
 						<th width="100" class="r">Cijena</th>
 					</tr>
 
 					@foreach ($invoice->items as $item)
 						<tr>
 							<td>{{ $item->title }}</td>
-							<td class="r">{{ $item->quantity }}</td>
-							<td class="r">{{ $item->amount }} {{ $invoice->currency }}</td>
+							<td class="r">{{ (int) $item->quantity }}</td>
+							<td class="r">{{ $item->unit_price }} {{ $invoice->currency }}</td>
+							<td class="r"><strong>{{ $item->amount }} {{ $invoice->currency }}</strong></td>
 						</tr>
 					@endforeach
 					<tr><td></td><td></td><td></td></tr>
 
 					<tr class="sum">
 						<td><strong>Ukupno</strong></td>
-						<td colspan="2" class="r">{{ $invoice->amount }} {{ $invoice->currency($invoice) }}</td>
+						<td colspan="3" class="r"><strong>{{ $invoice->amount }} {{ $invoice->currency($invoice) }}</strong></td>
 					</tr>
 				</table>
 
