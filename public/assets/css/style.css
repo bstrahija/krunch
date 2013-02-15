@@ -1,6 +1,12 @@
 body { padding-top: 60px; padding-bottom: 40px; }
 .ng-cloak { display: none; }
 
+/* Nav */
+#nav .home { font-size: 22px; }
+#nav li > a { padding-left: 15px; padding-right: 15px; }
+#nav li.home > a { padding-left: 20px; padding-right: 20px; }
+#nav .home i { position: relative; top: -2px; }
+
 /* Tables */
 table .r { text-align: right; }
 table .c { text-align: center; }
