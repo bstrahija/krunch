@@ -31,9 +31,9 @@
 						</td>
 						<td><?php echo $invoice->created_at; ?></td>
 						<td>
-							<?php echo HTML::actionShow('',         'invoices', $invoice, array('icon' => 'search', 'class' => 'btn btn-info btn-small', 'target' => '_blank')); ?>
-							<?php echo HTML::actionEdit('Edit',     'invoices', $invoice, array('icon' => 'pencil', 'class' => 'btn btn-primary btn-small')); ?>
-							<?php echo HTML::actionDelete('Delete', 'invoices', $invoice, array('icon' => 'trash',  'class' => 'btn btn-danger btn-small')); ?>
+							<?php echo HTML::actionShow('',         'invoices', $invoice, array('icon' => 'search', 'class' => 'btn btn-info btn-mini', 'target' => '_blank')); ?>
+							<?php echo HTML::actionEdit('Edit',     'invoices', $invoice, array('icon' => 'pencil', 'class' => 'btn btn-primary btn-mini')); ?>
+							<?php echo HTML::actionDelete('Delete', 'invoices', $invoice, array('icon' => 'trash',  'class' => 'btn btn-danger btn-mini')); ?>
 
 							<!-- <a href="<?php echo URL::show($invoice); ?>" class="btn btn-info btn-small"><i class="icon-search"></i></a>
 							<a href="<?php echo URL::edit($invoice); ?>" class="btn btn-primary btn-small">Edit</a>
