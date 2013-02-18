@@ -26,6 +26,8 @@ Route::group(array('before' => 'auth'), function()
 	Route::get('/', 'DashboardController@index');
 	Route::resource('dashboard', 'DashboardController');
 	Route::resource('invoices',  'InvoicesController');
+	Route::get('invoices/{id}/send',   'InvoicesController@getSend');
+	Route::post('invoices/{id}/send',  'InvoicesController@postSend');
 	Route::resource('clients',   'ClientsController');
 	Route::resource('projects',  'ProjectsController');
 	Route::resource('users',     'UsersController');

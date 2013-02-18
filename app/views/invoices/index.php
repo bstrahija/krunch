@@ -32,6 +32,7 @@
 						<td><?php echo $invoice->created_at; ?></td>
 						<td class="c">
 							<?php echo HTML::actionShow('',         'invoices', $invoice, array('icon' => 'search', 'class' => 'btn btn-info btn-mini', 'target' => '_blank')); ?>
+							<?php echo HTML::to('invoices/'.$invoice->id.'/send', 'Send', array('icon' => 'envelope', 'class' => 'btn btn-info btn-mini')); ?>
 							<?php echo HTML::actionEdit('Edit',     'invoices', $invoice, array('icon' => 'pencil', 'class' => 'btn btn-primary btn-mini')); ?>
 							<?php echo HTML::actionDelete('Delete', 'invoices', $invoice, array('icon' => 'trash',  'class' => 'btn btn-danger btn-mini')); ?>
 						</td>
