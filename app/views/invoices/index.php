@@ -15,7 +15,7 @@
 					<th class="r">Amount</th>
 					<th class="c">Status</th>
 					<th>When</th>
-					<th>Actions</th>
+					<th class="c"><i class="icon-cog"></i></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -30,14 +30,10 @@
 							<i class="icon-globe" title="<?php echo $invoice->payed_at; ?>" style="<?php echo ($invoice->payed_at) ? 'color: #0a0;' : 'color: #a00;' ; ?>"></i>
 						</td>
 						<td><?php echo $invoice->created_at; ?></td>
-						<td>
+						<td class="c">
 							<?php echo HTML::actionShow('',         'invoices', $invoice, array('icon' => 'search', 'class' => 'btn btn-info btn-mini', 'target' => '_blank')); ?>
 							<?php echo HTML::actionEdit('Edit',     'invoices', $invoice, array('icon' => 'pencil', 'class' => 'btn btn-primary btn-mini')); ?>
 							<?php echo HTML::actionDelete('Delete', 'invoices', $invoice, array('icon' => 'trash',  'class' => 'btn btn-danger btn-mini')); ?>
-
-							<!-- <a href="<?php echo URL::show($invoice); ?>" class="btn btn-info btn-small"><i class="icon-search"></i></a>
-							<a href="<?php echo URL::edit($invoice); ?>" class="btn btn-primary btn-small">Edit</a>
-							<a href="<?php echo URL::delete($invoice); ?>" class="btn btn-danger btn-small">Delete</a> -->
 						</td>
 					</tr>
 				<?php endforeach; ?>

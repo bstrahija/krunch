@@ -118,6 +118,7 @@ return array(
 		'Meido\HTML\HTMLServiceProvider',
 		'Meido\Str\StrServiceProvider',
 		'Profiler\ProfilerServiceProvider',
+		'Bstrahija\Fiskal\FiskalServiceProvider'
 	),
 
 	/*

@@ -12,12 +12,8 @@ Basset::collection('style', function($collection)
 // JS assets
 Basset::collection('script', function($collection)
 {
-	$collection->add('assets/js/libs//jquery.min.js');
-	$collection->add('assets/js/libs/angular.min.js');
+	$collection->add('assets/js/libs/jquery.min.js');
 	$collection->add('assets/js/libs/bootstrap.min.js');
 	$collection->add('assets/js/ajax.js');
 	$collection->add('assets/js/main.js');
-
-	$collection->add('assets/js/controllers/invoice.js');
-	$collection->add('assets/js/controllers/client.js');
 });
