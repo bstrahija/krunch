@@ -4,6 +4,9 @@ class Invoice extends Eloquent
 {
 	protected $table = 'invoices';
 
+
+	/* ------------------------------------------------------------------------------------------ */
+
 	public function user()
 	{
 		return $this->belongsTo('User');
@@ -23,6 +26,9 @@ class Invoice extends Eloquent
 	{
 		return $this->hasMany('Payment');
 	}
+
+
+	/* ------------------------------------------------------------------------------------------ */
 
 
 	/**
@@ -130,6 +136,35 @@ class Invoice extends Eloquent
 
 		// Respond
 		return Response::make(File::get($storagePath), 200, array('content-type'=>'application/pdf'));
+	}
+
+
+	/**
+	 * Send an invoice via email
+	 * @param  integer $id
+	 * @param  string  $email
+	 * @return boolean
+	 */
+	public static function send($id, $email = null)
+	{
+		// Find the invoice
+		$invoice = self::find($id);
+
+		if ($invoice) {
+			// Now send it
+			$result = Mail::send('emails.invoice.client', $invoice->toArray(), function($m) use ($invoice) {
+				$invoicePdf = realpath(app_path() . '/storage/invoices/' . $invoice->hash . '.pdf');
+
+				$m->subject('Your invoice');
+				$m->from('krunch@creolab.hr', 'Krunch');
+				$m->to('bstrahija@gmail.com', 'Boris Strahija');
+				$m->attach($invoicePdf, array('as' => 'invoice.pdf', 'mime' => 'application/pdf'));
+			});
+
+			if ($result) return true;
+		}
+
+		return false;
 	}
 
 }

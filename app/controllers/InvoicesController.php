@@ -73,18 +73,9 @@ class InvoicesController extends BaseController
 
 	public function postSend($id)
 	{
-		$data       = Invoice::find($id);
+		Invoice::send($id, Input::get('email'));
 
-		$result = Mail::send('emails.invoice.client', $data->toArray(), function($m) {
-			$pathToFile = URL::to('ln/488867bcdefb07ba27a59f299e36edff');
-			$m->subject('Your invoice');
-			$m->from('krunch@creolab.hr', 'Krunch');
-			$m->to('bstrahija@gmail.com', 'Boris Strahija');
-			$m->attach($pathToFile, array('mime' => 'application/pdf'));
-		});
-
-		echo '<pre>'; print_r(var_dump($result)); echo '</pre>';
-		die();
+		return Redirect::to('invoices');
 	}
 
 }

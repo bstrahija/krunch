@@ -12,7 +12,7 @@
 */
 
 // ! Public route
-Route::get('ln/{hash}', 'PublicController@display');
+Route::get('ln/{hash}.pdf', 'PublicController@display');
 
 // ! Auth routes
 Route::controller('auth', 'AuthController');
