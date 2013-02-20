@@ -3,11 +3,10 @@
 // CSS assets
 Basset::collection('style', function($collection)
 {
-	$collection->add('assets/css/bootstrap.min.css');
-	$collection->add('assets/css/bootstrap-responsive.min.css');
-	$collection->add('assets/css/font-awesome.min.css');
-	$collection->add('assets/css/style.css');
-});
+	$collection->add('assets/less/bootstrap/bootstrap.less');
+	$collection->add('assets/less/font-awesome.min.css');
+	$collection->add('assets/less/style.less');
+})->apply('LessphpFilter');
 
 // JS assets
 Basset::collection('script', function($collection)

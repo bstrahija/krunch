@@ -157,7 +157,7 @@ class Invoice extends Eloquent
 
 				$m->subject('Your invoice');
 				$m->from('krunch@creolab.hr', 'Krunch');
-				$m->to('bstrahija@gmail.com', 'Boris Strahija');
+				$m->to('bstrahija@me.com', 'Boris Strahija');
 				$m->attach($invoicePdf, array('as' => 'invoice.pdf', 'mime' => 'application/pdf'));
 			});
 

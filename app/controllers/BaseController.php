@@ -4,6 +4,11 @@ class BaseController extends Controller
 {
 	protected $layout = 'layouts.default';
 
+	public function __construct()
+	{
+		Artisan::call('basset:compile');
+	}
+
 	/**
 	 * Add content to layout
 	 * @param string $view

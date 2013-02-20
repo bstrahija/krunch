@@ -1,5 +1,7 @@
 <?php
 
+return Config::get('mail_mandrill');
+
 return array(
 
 	/*
