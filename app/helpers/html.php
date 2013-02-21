@@ -136,7 +136,7 @@ class HTML extends \Meido\HTML\HTMLFacade
 		$id = (is_object($resource))  ? $resource->id : null;
 
 		// Additional attributes
-		$attributes['onclick'] = "$(this).prev('form').submit();";
+		$attributes['onclick'] = "if (confirm('Are you sure?')) { $(this).prev('form').submit(); }";
 
 		// Build URL
 		$url = $name . '/' . $id;
@@ -150,8 +150,13 @@ class HTML extends \Meido\HTML\HTMLFacade
 		// Close it
 		$form .= \Form::close();
 
+		// Icon
+		if (isset($attributes['icon'])) {
+			$label = '<i class="icon-'.$attributes['icon'].'"></i> ' . $label;
+		}
+
 		// Now add the button
-		$form .= \Form::button('Delete', $attributes);
+		$form .= '<button'.\HTML::attributes($attributes).'>'.$label.'</button>';
 
 		return $form;
 	}

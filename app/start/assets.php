@@ -6,6 +6,7 @@ Basset::collection('style', function($collection)
 	$collection->add('assets/less/bootstrap/bootstrap.less');
 	$collection->add('assets/less/font-awesome.min.css');
 	$collection->add('assets/less/style.less');
+
 })->apply('LessphpFilter');
 
 // JS assets

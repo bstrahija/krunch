@@ -1,8 +1,8 @@
 <?php View::startSection('content'); ?>
 
 	<h1>
-		Projects
-		<?php echo HTML::actionCreate('New project', 'projects', array('icon' => 'plus-sign-alt', 'class' => 'btn btn-success')); ?>
+		<?php echo trans('app.projects'); ?>
+		<?php echo HTML::actionCreate(trans('app.new_project'), 'projects', array('icon' => 'plus-sign-alt', 'class' => 'btn btn-success')); ?>
 	</h1>
 
 	<?php if ($projects and ! empty($projects)) : ?>
@@ -10,10 +10,10 @@
 			<thead>
 				<tr>
 					<th>#</th>
-					<th>Title</th>
-					<th>Client</th>
-					<th>When</th>
-					<th>Actions</th>
+					<th><?php echo trans('app.title'); ?></th>
+					<th><?php echo trans('app.client'); ?></th>
+					<th><?php echo trans('app.when'); ?></th>
+					<th class="c"><i class="icon-cog"></i></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -23,10 +23,10 @@
 						<td><a href="<?php echo URL::edit($project); ?>"><?php echo $project->title; ?></a></td>
 						<td><?php echo $project->client->name; ?></td>
 						<td><?php echo $project->created_at; ?></td>
-						<td>
-							<?php echo HTML::actionShow('',         'projects', $project, array('icon' => 'search', 'class' => 'btn btn-info btn-small')); ?>
-							<?php echo HTML::actionEdit('Edit',     'projects', $project, array('icon' => 'pencil', 'class' => 'btn btn-primary btn-small')); ?>
-							<?php echo HTML::actionDelete('Delete', 'projects', $project, array('icon' => 'trash',  'class' => 'btn btn-danger btn-small')); ?>
+						<td class="c">
+							<?php echo HTML::actionShow('',         'projects', $project, array('icon' => 'search', 'class' => 'btn btn-info btn-mini')); ?>
+							<?php echo HTML::actionEdit(trans('app.edit'),     'projects', $project, array('icon' => 'pencil', 'class' => 'btn btn-primary btn-mini')); ?>
+							<?php echo HTML::actionDelete(trans('app.delete'), 'projects', $project, array('icon' => 'trash',  'class' => 'btn btn-danger btn-mini')); ?>
 						</td>
 					</tr>
 				<?php endforeach; ?>

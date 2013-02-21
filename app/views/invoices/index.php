@@ -1,8 +1,8 @@
 <?php View::startSection('content'); ?>
 
 	<h1>
-		Invoices
-		<?php echo HTML::actionCreate('New invoice', 'invoices', array('icon' => 'plus-sign-alt', 'class' => 'btn btn-success')); ?>
+		<?php echo trans('app.invoices'); ?>
+		<?php echo HTML::actionCreate(trans('app.new_invoice'), 'invoices', array('icon' => 'plus-sign-alt', 'class' => 'btn btn-success')); ?>
 	</h1>
 
 	<?php if ($invoices and ! empty($invoices)) : ?>
@@ -10,11 +10,11 @@
 			<thead>
 				<tr>
 					<th>#</th>
-					<th>Num</th>
-					<th>Client</th>
-					<th class="r">Amount</th>
-					<th class="c">Status</th>
-					<th>When</th>
+					<th><?php echo trans('app.num'); ?></th>
+					<th><?php echo trans('app.client'); ?></th>
+					<th class="r"><?php echo trans('app.amount'); ?></th>
+					<th class="c"><?php echo trans('app.status'); ?></th>
+					<th><?php echo trans('app.when'); ?></th>
 					<th class="c"><i class="icon-cog"></i></th>
 				</tr>
 			</thead>
@@ -32,9 +32,9 @@
 						<td><?php echo $invoice->created_at; ?></td>
 						<td class="c">
 							<?php echo HTML::actionShow('',         'invoices', $invoice, array('icon' => 'search', 'class' => 'btn btn-info btn-mini', 'target' => '_blank')); ?>
-							<?php echo HTML::to('invoices/'.$invoice->id.'/send', 'Send', array('icon' => 'envelope', 'class' => 'btn btn-info btn-mini')); ?>
-							<?php echo HTML::actionEdit('Edit',     'invoices', $invoice, array('icon' => 'pencil', 'class' => 'btn btn-primary btn-mini')); ?>
-							<?php echo HTML::actionDelete('Delete', 'invoices', $invoice, array('icon' => 'trash',  'class' => 'btn btn-danger btn-mini')); ?>
+							<?php echo HTML::to('invoices/'.$invoice->id.'/send', trans('app.send'), array('icon' => 'envelope', 'class' => 'btn btn-info btn-mini')); ?>
+							<?php echo HTML::actionEdit(trans('app.edit'),     'invoices', $invoice, array('icon' => 'pencil', 'class' => 'btn btn-primary btn-mini')); ?>
+							<?php echo HTML::actionDelete(trans('app.delete'), 'invoices', $invoice, array('icon' => 'trash',  'class' => 'btn btn-danger btn-mini')); ?>
 						</td>
 					</tr>
 				<?php endforeach; ?>
