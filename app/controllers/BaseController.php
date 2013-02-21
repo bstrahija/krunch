@@ -6,7 +6,9 @@ class BaseController extends Controller
 
 	public function __construct()
 	{
+		Profiler::startTimer("[BASSET] Compiling assets");
 		Artisan::call('basset:compile');
+		Profiler::endTimer("[BASSET] Compiling assets");
 	}
 
 	/**
