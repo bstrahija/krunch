@@ -33,6 +33,7 @@ class CreateUsersTable extends Migration {
 			$t->string('currency', 10)->default("EUR");
 			$t->text('notes')->nullable();
 			$t->string('image', 250)->nullable();
+			$t->string('template', 250)->default('default');
 			$t->string('role', 10)->default('admin');
 			$t->timestamps();
 		});

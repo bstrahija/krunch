@@ -11,6 +11,7 @@ class InvoiceTableSeeder extends Seeder
 			'user_id'     => 2,
 			'client_id'   => 1,
 			'currency'    => 'EUR',
+			'template'    => 'creo',
 			'hash'        => hash('md5', '2013/04'),
 			'sent_at'     => date('Y-m-d H:i:s'),
 			'due_at'      => date('Y-m-d H:i:s', strtotime('+15 day')),

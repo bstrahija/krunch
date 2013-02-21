@@ -57,11 +57,16 @@ class Invoice extends Eloquent
 	 * @param  string  $template
 	 * @return Response
 	 */
-	public static function generate($invoiceId, $template)
+	public static function generate($invoiceId, $template = null)
 	{
 		// Get invoice and template
 		$generatePdf      = true;
 		$invoice          = static::with(array('client', 'user', 'items'))->find($invoiceId);
+
+		// Template
+		if ( ! $template) $template = static::findTemplate($invoice);
+
+		// Files and paths
 		$filename         = $invoice->hash . '.pdf';
 		$filenameDownload = 'invoice.pdf';
 		$storagePath      = app_path() . '/storage/invoices/' . $filename;
@@ -117,6 +122,33 @@ class Invoice extends Eloquent
 
 		// Display invoice
 		return self::display($invoice);
+	}
+
+
+	/**
+	 * Return the template for current invoice
+	 * @param  mixed $invoice
+	 * @return string
+	 */
+	public static function findTemplate($invoice)
+	{
+		// Find template setup
+		if ($invoice->template) {
+			$template = $invoice->template;
+		} else {
+			$user = Auth::user();
+
+			if ($user->template) {
+				$template = $user->template;
+			} else {
+				$template = 'default';
+			}
+		}
+
+		// Add namespace
+		$template = "pdf::$template.layout";
+
+		return $template;
 	}
 
 

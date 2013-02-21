@@ -57,5 +57,28 @@ class UserTableSeeder extends Seeder
 			'created_at'  => date('Y-m-d H:i:s'),
 			'updated_at'  => date('Y-m-d H:i:s'),
 		));
+		User::create(array(
+			'email'       => 'fffilo@gmail.com',
+			'password'    => '$2y$10$9dKAFTN3/DBC/LLKeXxaV.qh8r7NOiA2FpTnyqV1fm.g7OcY6pV9m', // admin
+			'role'        => 'admin',
+			'first_name'  => 'Franjo',
+			'last_name'   => 'Filo',
+			'company'     => 'Filo',
+			'address'     => '',
+			'zip'         => '40000',
+			'city'        => 'Čakovec',
+			'country'     => 'Croatia',
+			'phone'       => '+385 666666',
+			'mobile'      => null,
+			'web'         => '',
+			'account_num' => '',
+			'tax_num'     => '12345123123',
+			'iban'        => 'HR554376597341728638',
+			'swift'       => 'PBZGHR2X',
+			'tax'         => 0,
+			'notes'       => 'Račun izrađen na računalu, te je valjan bez pečata i potpisa.',
+			'created_at'  => date('Y-m-d H:i:s'),
+			'updated_at'  => date('Y-m-d H:i:s'),
+		));
 	}
 }
