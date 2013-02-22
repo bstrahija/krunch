@@ -15,6 +15,8 @@ return array(
 	'logout'           => 'Odjava',
 	'save'             => 'Spremi',
 	'back_to_overview' => 'Natrag na pregled',
+	'login'            => 'Prijava',
+	'password'         => 'Lozinka',
 
 	// ! Dashboard
 	'dashboard' => 'Kontrolna ploča',

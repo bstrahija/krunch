@@ -15,6 +15,8 @@ return array(
 	'logout'           => 'Logout',
 	'save'             => 'Save',
 	'back_to_overview' => 'Back to overview',
+	'login'            => 'Login',
+	'password'         => 'Password',
 
 	// ! Dashboard
 	'dashboard' => 'Dashboard',
