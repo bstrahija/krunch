@@ -26,7 +26,8 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('*.dev'),
+	'local' => array('*.dev', 'MBP.local'),
+	'production' => array('*.creolab.hr'),
 
 ));
 

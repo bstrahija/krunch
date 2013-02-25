@@ -1,3 +1,4 @@
 /vendor
 /workbench
 /public/assets/cache/*
+/app/config/production/*
