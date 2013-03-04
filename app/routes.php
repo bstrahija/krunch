@@ -36,12 +36,20 @@ Route::group(array('before' => 'auth'), function()
 // ! Api routes
 Route::group(array('before' => 'api_auth'), function()
 {
-	Route::resource('api/invoices',  'Api\InvoicesController');
-	Route::resource('api/clients',   'Api\ClientsController');
-	Route::resource('api/projects',  'Api\ProjectsController');
+	/*Route::resource('api.invoices',  'Api\InvoicesController');
+	Route::resource('api.clients',   'Api\ClientsController');
+	Route::resource('api.projects',  'Api\ProjectsController');*/
+
+	Route::get('api/invoices', 'Api\InvoicesController@index');
+	Route::get('api/invoices/{id}', 'Api\InvoicesController@show');
+	Route::post('api/invoices', 'Api\InvoicesController@store');
+	Route::put('api/invoices/{id}', 'Api\InvoicesController@update');
+	Route::delete('api/invoices/{id}', 'Api\InvoicesController@destroy');
+
+
 });
 
-if (Request::segment(1) == 'api')
+/*if (Request::segment(1) == 'api')
 {
 	// Custom 404 handler
 	\App::error(function(Exception $e, $code) {
@@ -49,3 +57,4 @@ if (Request::segment(1) == 'api')
 		if ($code == 500) return Response::json(array('error' => '500', 'message' => 'Internal server error ['.$e->getMessage().']'), 500);
 	});
 }
+*/

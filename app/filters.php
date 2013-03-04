@@ -41,10 +41,10 @@ Route::filter('auth', function()
 // Check API key in header
 Route::filter('api_auth', function()
 {
-	if (Config::get('app.api_key') !== Request::header('apikey'))
+	/*if (Config::get('app.api_key') !== Request::header('apikey'))
 	{
 		return Response::json(array('error' => 'Unauthorized'), 403);
-	}
+	}*/
 });
 
 /*

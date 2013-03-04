@@ -41,7 +41,7 @@
 			</tbody>
 		</table>
 
-		<?php echo $invoices->links(); ?>
+		<?php // echo $invoices->links(); ?>
 	<?php endif; ?>
 
 <?php View::stopSection(); ?>

@@ -1,6 +1,6 @@
 <?php
 
-class Invoice extends Eloquent
+class Invoice extends BaseModel
 {
 	protected $table = 'invoices';
 
