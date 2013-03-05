@@ -1,8 +1,7 @@
 <?php
 
 return array(
-	'driver'   => 'memcached',
+	'driver'   => 'cookie',
 	'lifetime' => 120,
-	'path'     => __DIR__.'/../../storage/sessions',
-	'cookie'   => 'krsess',
+	'cookie'   => 'krsessloc',
 );

@@ -93,6 +93,7 @@ return array(
 		'Illuminate\Encryption\EncryptionServiceProvider',
 		'Illuminate\Filesystem\FilesystemServiceProvider',
 		'Illuminate\Hashing\HashServiceProvider',
+		'Illuminate\Html\HtmlServiceProvider',
 		'Illuminate\Foundation\Providers\KeyGeneratorServiceProvider',
 		'Illuminate\Log\LogServiceProvider',
 		'Illuminate\Mail\MailServiceProvider',
@@ -114,11 +115,7 @@ return array(
 		// Required services
 		'Basset\BassetServiceProvider',
 		'Cartalyst\Sentry\SentryServiceProvider',
-		'Meido\Form\FormServiceProvider',
-		'Meido\HTML\HTMLServiceProvider',
-		'Meido\Str\StrServiceProvider',
 		'Profiler\ProfilerServiceProvider',
-		'Bstrahija\Fiskal\FiskalServiceProvider'
 	),
 
 	/*
@@ -162,7 +159,9 @@ return array(
 		'Event'           => 'Illuminate\Support\Facades\Event',
 		'EventSubscriber' => 'Illuminate\Events\Subscriber',
 		'File'            => 'Illuminate\Support\Facades\File',
+		'Form'            => 'Illuminate\Support\Facades\Form',
 		'Hash'            => 'Illuminate\Support\Facades\Hash',
+		'Html'            => 'Illuminate\Html\HtmlBuilder',
 		'Input'           => 'Illuminate\Support\Facades\Input',
 		'Lang'            => 'Illuminate\Support\Facades\Lang',
 		'Log'             => 'Illuminate\Support\Facades\Log',
@@ -185,11 +184,8 @@ return array(
 		// Custom facades
 		'Basset'     => 'Basset\Facades\Basset',
 		'Fluent'     => 'Illuminate\Support\Fluent',
-		'Form'       => 'Meido\Form\FormFacade',
-		'HTML'       => 'App\Helpers\HTML',
 		'Profiler'   => 'Profiler\Facades\Profiler',
 		'Sentry'     => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
-		'Str'        => 'Meido\Str\StrFacade',
 		'URL'        => 'App\Helpers\URL',
 
 	),
