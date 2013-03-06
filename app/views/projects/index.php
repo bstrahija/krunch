@@ -2,7 +2,7 @@
 
 	<h1>
 		<?php echo trans('app.projects'); ?>
-		<?php echo HTML::actionCreate(trans('app.new_project'), 'projects', array('icon' => 'plus-sign-alt', 'class' => 'btn btn-success')); ?>
+		<?php echo Html::actionCreate(trans('app.new_project'), 'projects', array('icon' => 'plus-sign-alt', 'class' => 'btn btn-success')); ?>
 	</h1>
 
 	<?php if ($projects and ! empty($projects)) : ?>
@@ -24,9 +24,9 @@
 						<td><?php echo $project->client->name; ?></td>
 						<td><?php echo $project->created_at; ?></td>
 						<td class="c">
-							<?php echo HTML::actionShow('',         'projects', $project, array('icon' => 'search', 'class' => 'btn btn-info btn-mini')); ?>
-							<?php echo HTML::actionEdit(trans('app.edit'),     'projects', $project, array('icon' => 'pencil', 'class' => 'btn btn-primary btn-mini')); ?>
-							<?php echo HTML::actionDelete(trans('app.delete'), 'projects', $project, array('icon' => 'trash',  'class' => 'btn btn-danger btn-mini')); ?>
+							<?php echo Html::actionShow('',         'projects', $project, array('icon' => 'search', 'class' => 'btn btn-info btn-mini')); ?>
+							<?php echo Html::actionEdit(trans('app.edit'),     'projects', $project, array('icon' => 'pencil', 'class' => 'btn btn-primary btn-mini')); ?>
+							<?php echo Html::actionDelete(trans('app.delete'), 'projects', $project, array('icon' => 'trash',  'class' => 'btn btn-danger btn-mini')); ?>
 						</td>
 					</tr>
 				<?php endforeach; ?>

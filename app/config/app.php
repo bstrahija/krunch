@@ -116,6 +116,7 @@ return array(
 		'Basset\BassetServiceProvider',
 		'Cartalyst\Sentry\SentryServiceProvider',
 		'Profiler\ProfilerServiceProvider',
+		'Way\Generators\GeneratorsServiceProvider',
 	),
 
 	/*
@@ -157,11 +158,10 @@ return array(
 		'DB'              => 'Illuminate\Support\Facades\DB',
 		'Eloquent'        => 'Illuminate\Database\Eloquent\Model',
 		'Event'           => 'Illuminate\Support\Facades\Event',
-		'EventSubscriber' => 'Illuminate\Events\Subscriber',
 		'File'            => 'Illuminate\Support\Facades\File',
 		'Form'            => 'Illuminate\Support\Facades\Form',
 		'Hash'            => 'Illuminate\Support\Facades\Hash',
-		'Html'            => 'Illuminate\Html\HtmlBuilder',
+		//'Html'            => 'Illuminate\Html\HtmlBuilder',
 		'Input'           => 'Illuminate\Support\Facades\Input',
 		'Lang'            => 'Illuminate\Support\Facades\Lang',
 		'Log'             => 'Illuminate\Support\Facades\Log',
@@ -177,6 +177,7 @@ return array(
 		'Schema'          => 'Illuminate\Support\Facades\Schema',
 		'Seeder'          => 'Illuminate\Database\Seeder',
 		'Session'         => 'Illuminate\Support\Facades\Session',
+		'Str'             => 'Illuminate\Support\Str',
 		//'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
@@ -184,6 +185,7 @@ return array(
 		// Custom facades
 		'Basset'     => 'Basset\Facades\Basset',
 		'Fluent'     => 'Illuminate\Support\Fluent',
+		'Html'       => 'App\Helpers\Html',
 		'Profiler'   => 'Profiler\Facades\Profiler',
 		'Sentry'     => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
 		'URL'        => 'App\Helpers\URL',

@@ -1,5 +1,7 @@
 <?php
 
+Profiler::startTimer("[START] Global");
+
 /*
 |--------------------------------------------------------------------------
 | Register The Laravel Class Loader
@@ -78,3 +80,5 @@ View::addNamespace('pdf', '../public/pdf');
 require __DIR__.'/assets.php';
 // require __DIR__.'/../helpers/composers.php';
 // require __DIR__.'/../helpers/helpers.php';
+
+Profiler::endTimer("[START] Global");

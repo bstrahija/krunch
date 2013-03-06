@@ -1,6 +1,6 @@
 <?php namespace App\Helpers;
 
-class HTML extends \Meido\HTML\HTMLFacade
+class Html extends \Illuminate\Html\HtmlBuilder
 {
 
 	/**
@@ -142,12 +142,8 @@ class HTML extends \Meido\HTML\HTMLFacade
 		$url = $name . '/' . $id;
 
 		// Start form
-		$form = \Form::open($url, 'DELETE', array('style' => 'display: none;'));
-
-		// Submit
+		$form  = \Form::open(array('action' => $url, 'method' => 'DELETE', 'style' => 'display: none;'));
 		$form .= \Form::submit('Delete');
-
-		// Close it
 		$form .= \Form::close();
 
 		// Icon
@@ -156,7 +152,7 @@ class HTML extends \Meido\HTML\HTMLFacade
 		}
 
 		// Now add the button
-		$form .= '<button'.\HTML::attributes($attributes).'>'.$label.'</button>';
+		$form .= '<button'.\Html::attributes($attributes).'>'.$label.'</button>';
 
 		return $form;
 	}

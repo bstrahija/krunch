@@ -1,5 +1,7 @@
 <?php
 
+Profiler::startTimer("[BASSET] Setup collections");
+
 // CSS assets
 Basset::collection('style', function($collection)
 {
@@ -17,3 +19,5 @@ Basset::collection('script', function($collection)
 	$collection->add('assets/js/ajax.js');
 	$collection->add('assets/js/main.js');
 });
+
+Profiler::endTimer("[BASSET] Setup collections");

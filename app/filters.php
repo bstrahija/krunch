@@ -11,6 +11,8 @@
 |
 */
 
+Profiler::startTimer("[FILTERS] Setup");
+
 App::before(function($request)
 {
 	//
@@ -65,3 +67,5 @@ Route::filter('csrf', function()
 		throw new Illuminate\Session\TokenMismatchException;
 	}
 });
+
+Profiler::endTimer("[FILTERS] Setup");

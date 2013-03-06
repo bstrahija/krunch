@@ -5,12 +5,7 @@ class InvoicesController extends BaseController
 
 	public function index()
 	{
-		//Cache::forget('invoices');
-
-		$invoices = Cache::remember('invoices', 10, function() {
-			Log::info('Invoices not found in cache, fetching from DB');
-			return Invoice::with('client')->get();
-		});
+		$invoices = Invoice::with('client')->get();
 
 		$this->setContent('invoices.index', array('invoices' => $invoices));
 	}

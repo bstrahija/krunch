@@ -2,7 +2,7 @@
 
 	<h1>
 		<?php echo trans('app.clients'); ?>
-		<?php echo HTML::actionCreate(trans('app.new_client'), 'clients', array('icon' => 'plus-sign-alt', 'class' => 'btn btn-success')); ?>
+		<?php echo Html::actionCreate(trans('app.new_client'), 'clients', array('icon' => 'plus-sign-alt', 'class' => 'btn btn-success')); ?>
 	</h1>
 
 	<?php if ($clients and ! empty($clients)) : ?>
@@ -26,8 +26,8 @@
 						<td><?php echo $client->email; ?></td>
 						<td><?php echo $client->created_at; ?></td>
 						<td class="c">
-							<?php echo HTML::actionEdit(trans('app.edit'),     'clients', $client, array('icon' => 'pencil', 'class' => 'btn btn-primary btn-mini')); ?>
-							<?php echo HTML::actionDelete(trans('app.delete'), 'clients', $client, array('icon' => 'trash',  'class' => 'btn btn-danger btn-mini')); ?>
+							<?php echo Html::actionEdit(trans('app.edit'),     'clients', $client, array('icon' => 'pencil', 'class' => 'btn btn-primary btn-mini')); ?>
+							<?php echo Html::actionDelete(trans('app.delete'), 'clients', $client, array('icon' => 'trash',  'class' => 'btn btn-danger btn-mini')); ?>
 						</td>
 					</tr>
 				<?php endforeach; ?>

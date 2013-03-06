@@ -2,7 +2,7 @@
 
 	<h1>
 		<?php echo trans('app.invoices'); ?>
-		<?php echo HTML::actionCreate(trans('app.new_invoice'), 'invoices', array('icon' => 'plus-sign-alt', 'class' => 'btn btn-success')); ?>
+		<?php echo Html::actionCreate(trans('app.new_invoice'), 'invoices', array('icon' => 'plus-sign-alt', 'class' => 'btn btn-success')); ?>
 	</h1>
 
 	<?php if ($invoices and ! empty($invoices)) : ?>
@@ -31,10 +31,10 @@
 						</td>
 						<td><?php echo $invoice->created_at; ?></td>
 						<td class="c">
-							<?php echo HTML::actionShow('',         'invoices', $invoice, array('icon' => 'search', 'class' => 'btn btn-info btn-mini', 'target' => '_blank')); ?>
-							<?php echo HTML::to('invoices/'.$invoice->id.'/send', trans('app.send'), array('icon' => 'envelope', 'class' => 'btn btn-info btn-mini')); ?>
-							<?php echo HTML::actionEdit(trans('app.edit'),     'invoices', $invoice, array('icon' => 'pencil', 'class' => 'btn btn-primary btn-mini')); ?>
-							<?php echo HTML::actionDelete(trans('app.delete'), 'invoices', $invoice, array('icon' => 'trash',  'class' => 'btn btn-danger btn-mini')); ?>
+							<?php echo Html::actionShow('',         'invoices', $invoice, array('icon' => 'search', 'class' => 'btn btn-info btn-mini', 'target' => '_blank')); ?>
+							<?php echo Html::to('invoices/'.$invoice->id.'/send', trans('app.send'), array('icon' => 'envelope', 'class' => 'btn btn-info btn-mini')); ?>
+							<?php echo Html::actionEdit(trans('app.edit'),     'invoices', $invoice, array('icon' => 'pencil', 'class' => 'btn btn-primary btn-mini')); ?>
+							<?php echo Html::actionDelete(trans('app.delete'), 'invoices', $invoice, array('icon' => 'trash',  'class' => 'btn btn-danger btn-mini')); ?>
 						</td>
 					</tr>
 				<?php endforeach; ?>

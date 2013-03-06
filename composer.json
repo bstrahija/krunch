@@ -8,7 +8,8 @@
 		"cartalyst/sentry": "2.0.*",
 		"loic-sharma/profiler": "dev-master",
 		"tcpdf/tcpdf": "*",
-		"dandoescode/datum": "*"
+		"dandoescode/datum": "*",
+		"way/generators": "dev-master"
 	},
 	"autoload": {
 		"classmap": [

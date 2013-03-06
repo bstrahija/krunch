@@ -6,9 +6,12 @@ class BaseController extends Controller
 
 	public function __construct()
 	{
-		Profiler::startTimer("[BASSET] Compiling assets");
-		Artisan::call('basset:compile');
-		Profiler::endTimer("[BASSET] Compiling assets");
+		// Do the assets need compiling
+		/*if ( ! Basset::isCompiled()) {
+			Profiler::startTimer("[BASSET] Compiling assets");
+			Artisan::call('basset:compile');
+			Profiler::endTimer("[BASSET] Compiling assets");
+		}*/
 	}
 
 	/**
@@ -29,7 +32,9 @@ class BaseController extends Controller
 	{
 		if ( ! is_null($this->layout))
 		{
+			Profiler::startTimer("[BASE] Make view layout");
 			$this->layout = View::make($this->layout);
+			Profiler::endTimer("[BASE] Make view layout");
 		}
 	}
 
