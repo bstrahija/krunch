@@ -121,7 +121,7 @@ class RoutesCommand extends Command {
 	}
 
 	/**
-	 * A pretty shoddy attempt at a psuedo table-based layout
+	 * A pretty shoddy attempt at a pseudo table-based layout
 	 * Determines correct spacing for each column.
 	 *
 	 * TODO: Does the Symfony console component offer any solution?
