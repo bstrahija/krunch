@@ -7,7 +7,7 @@
 
 	<hr>
 
-	<?php echo Form::open('clients', 'POST', array('class' => 'form-horizontal')); ?>
+	<?php echo Form::open(array('action' => 'clients', 'method' => 'POST', 'class' => 'form-horizontal')); ?>
 		<?php echo Html::controlGroup('name',    trans('app.name'),    Input::old('name')); ?>
 		<?php echo Html::controlGroup('manager', trans('app.manager'), Input::old('manager')); ?>
 		<hr>

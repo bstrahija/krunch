@@ -22,7 +22,7 @@
 			</div>
 		<?php endif; ?>
 
-		<?php echo Form::open('invoices/' . $invoice->id, 'PUT', array('class' => 'form-horizontal')); ?>
+		<?php echo Form::open(array('aciton' => 'invoices/' . $invoice->id, 'method' => 'PUT', 'class' => 'form-horizontal')); ?>
 			<div class="control-group">
 				<label for="title" class="control-label">Title</label>
 				<div class="controls">

@@ -8,7 +8,7 @@
 
 		<hr>
 
-		<?php echo Form::open('clients/' . $client->id, 'PUT', array('class' => 'form-horizontal')); ?>
+		<?php echo Form::open(array('action' => 'clients/' . $client->id, 'method' => 'PUT', 'class' => 'form-horizontal')); ?>
 			<?php echo Html::controlGroup('name',    trans('app.name'),    Input::old('name',    $client->name)); ?>
 			<?php echo Html::controlGroup('manager', trans('app.manager'), Input::old('manager', $client->manager)); ?>
 			<hr>

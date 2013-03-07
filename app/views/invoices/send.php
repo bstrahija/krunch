@@ -7,7 +7,7 @@
 
 		<hr>
 
-		<?php echo Form::open("invoices/{$invoice->id}/send", 'POST', array('class' => 'form-horizontal')); ?>
+		<?php echo Form::open(array('action' => "invoices/{$invoice->id}/send", 'method' => 'POST', 'class' => 'form-horizontal')); ?>
 
 			<?php echo Html::controlGroup('to', 'Send to', $invoice->client->email); ?>
 			<?php echo Html::controlSubmit('Send'); ?>
